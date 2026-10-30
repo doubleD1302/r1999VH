@@ -1606,7 +1606,7 @@
     {
       "id": "language_10000322",
       "source": "[rate=5]\n[heroname=5]\n#\n[rate=4]\n[heroname=4]\n#\n[rate=3]\n[heroname=3]\n#\n[rate=2]\n[heroname=2]\n#\n[rate=1]\n[heroname=1]",
-      "target": "[tỷ lệ=5]\n[tên anh hùng=5]\n#\n[tỷ lệ=4]\n[tên anh hùng=4]\n#\n[tỷ lệ=3]\n[tên anh hùng=3]\n#\n[tỷ lệ=2]\n[tên anh hùng=2]\n#\n[tỷ lệ=1]\n[tên anh hùng=1]"
+      "target": "[rate=5]\n[heroname=5]\n#\n[rate=4]\n[heroname=4]\n#\n[rate=3]\n[heroname=3]\n#\n[rate=2]\n[heroname=2]\n#\n[rate=1]\n[heroname=1]"
     },
     {
       "id": "language_10000323",
