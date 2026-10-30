@@ -9,7 +9,9 @@ __pycache__/
 # Build outputs, temporary directories & archives
 dist/
 build/
-work/
+work/*
+!work/batches/
+!work/batches/*.json
 backups/
 staging/
 reports/

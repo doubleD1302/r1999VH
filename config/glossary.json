@@ -1,26 +1,601 @@
 {
-  "project": "reverse1999_viethoa",
-  "version": "1.0.0",
+  "project": "r1999VH",
+  "version": "1.2.0",
+  "scanners": [
+    "Scanner Agent 1: Lore & Entities Specialist",
+    "Scanner Agent 2: Mechanics & UI Specialist"
+  ],
+  "total_terms": 98,
   "terms": {
-    "Timekeeper": "Người Gìn Giữ Thời Gian",
-    "The Storm": "Cơn Bão Tố",
+    "The Storm": "Cơn Bão",
     "Storm": "Cơn Bão",
+    "Timekeeper": "Người Gìn Giữ Thời Gian",
     "Arcanist": "Nhà Huyền Thuật",
+    "Arcanists": "Các Nhà Huyền Thuật",
     "Arcanum": "Huyền Thuật",
     "St. Pavlov Foundation": "Quỹ Thánh Pavlov",
+    "Foundation": "Quỹ Pavlov",
+    "Manus Vindictae": "Bàn Tay Phục Thù",
     "Manus Vindicta": "Bàn Tay Phục Thù",
     "Suitcase": "Chiếc Vali",
     "Wilderness": "Vùng Hoang Dã",
-    "Psychube": "Khối Tâm Thức",
-    "Insight": "Khai Tâm",
+    "Limbo": "Vực Hỗn Loạn",
+    "Artificial Somnambulism": "Mộng Du Nhân Tạo",
+    "Vertin": "Vertin",
+    "Sonetto": "Sonetto",
+    "Regulus": "Regulus",
+    "APPLe": "APPLe",
+    "Schneider": "Schneider",
+    "Druvis III": "Druvis III",
+    "Sotheby": "Sotheby",
+    "Lilya": "Lilya",
+    "A Knight": "Hiệp Sĩ Vô Danh",
+    "Tooth Fairy": "Tiên Răng",
+    "Centurion": "Centurion",
+    "An-an Lee": "An-an Lee",
+    "Medicine Pocket": "Medicine Pocket",
+    "Voyager": "Nhà Du Hành",
+    "Jessica": "Jessica",
+    "Shamane": "Shamane",
+    "Black Dwarf": "Sao Lùn Đen",
+    "Kaalaa Baunaa": "Kaalaa Baunaa",
+    "37": "37",
+    "6": "6",
+    "Isolde": "Isolde",
+    "Marcus": "Marcus",
+    "Lucy": "Lucy",
+    "Afflatus": "Bản Chất Linh Hồn",
+    "Mineral": "Khoáng",
+    "Beast": "Thú",
+    "Plant": "Mộc",
+    "Star": "Tinh",
+    "Spirit": "Linh",
+    "Intellect": "Trí",
+    "Insight": "Thấu Thị",
     "Resonance": "Cộng Hưởng",
+    "Psychube": "Khối Tâm Thức",
+    "Psychubes": "Các Khối Tâm Thức",
+    "Moxie": "Điểm Nhiệt Huyết",
+    "Ultimate": "Tuyệt Kỹ Nghi Lễ",
     "Incantation": "Chú Ngữ",
-    "Ultimate": "Tuyệt Kỹ",
-    "Moxie": "Hồn Lực",
-    "Eureka": "Ngộ Tính",
-    "Sharodonty": "Sharodonty",
+    "Incantations": "Các Chú Ngữ",
+    "Tuning": "Hòa Nhịp",
+    "Reality DMG": "Sát Thương Thực Tế",
+    "Mental DMG": "Sát Thương Tinh Thần",
+    "Genesis DMG": "Sát Thương Bản Nguyên",
+    "Reality DEF": "Kháng Thực Tế",
+    "Mental DEF": "Kháng Tinh Thần",
+    "Crit Rate": "Tỉ Lệ Bạo Kích",
+    "Crit DMG": "Sát Thương Bạo Kích",
+    "Penetration Rate": "Tỉ Lệ Xuyên Giáp",
+    "Leech Rate": "Tỉ Lệ Hút Máu",
+    "Healing Done": "Hiệu Quả Hồi Máu",
+    "DMG Taken Reduction": "Giảm Sát Thương Nhận Vào",
+    "Clear Drop": "Giọt Mưa Thuần Khiết",
+    "Clear Drops": "Giọt Mưa Thuần Khiết",
+    "Unilog": "Độc Nhất Luật",
+    "Unilogs": "Độc Nhất Luật",
+    "Sharpodonty": "Sharpodonty",
+    "Sharodonty": "Sharpodonty",
     "Dust": "Bụi Ma Thuật",
-    "Clear Drop": "Giọt Nước Trong",
-    "Unilog": "Độc Lân"
+    "Picrasma Candy": "Kẹo Mắt Đắng",
+    "Jar of Picrasma Candy": "Hũ Kẹo Mắt Đắng",
+    "Wilderness Shell": "Vỏ Sò Hoang Dã",
+    "Goldfinch Coin": "Xu Chim Sẻ Vàng",
+    "Goldfinch Coins": "Xu Chim Sẻ Vàng",
+    "Ritual Disk": "Đĩa Nghi Lễ",
+    "Comradery": "Độ Gắn Kết Đồng Đội",
+    "Obsession": "Ám Ảnh",
+    "Log in": "Đăng nhập",
+    "Sign in": "Điểm danh",
+    "Claim": "Nhận",
+    "Claim All": "Nhận Toàn Bộ",
+    "Claimed": "Đã Nhận",
+    "Confirm": "Xác Nhận",
+    "Cancel": "Hủy Bỏ",
+    "Close": "Đóng",
+    "Back": "Quay Lại",
+    "Next": "Tiếp Tục",
+    "Exit": "Thoát",
+    "Rest here": "Nghỉ chân tại đây",
+    "Advance cautiously": "Cẩn trọng tiến bước",
+    "Return Exit": "Lối Thoát Trở Về",
+    "Challenge Record": "Kỷ Lục Khiêu Chiến",
+    "Crystal Casket": "Tráp Pha Lê",
+    "Beginning of the Tale": "Khởi Đầu Giai Thoại",
+    "Storm Visitors": "Lữ Khách Cơn Bão",
+    "8 Daily Letters": "8 Bức Thư Hằng Ngày"
+  },
+  "details": {
+    "The Storm": {
+      "vi": "Cơn Bão",
+      "zh": "暴雨",
+      "desc": "Hiện tượng đảo ngược thời gian bí ẩn quét qua thế giới"
+    },
+    "Storm": {
+      "vi": "Cơn Bão",
+      "zh": "暴雨",
+      "desc": "Cơn bão thời gian cuốn trôi các thời đại"
+    },
+    "Timekeeper": {
+      "vi": "Người Gìn Giữ Thời Gian",
+      "zh": "司辰",
+      "desc": "Danh xưng cao quý của Vertin, người miễn nhiễm với Cơn Bão"
+    },
+    "Arcanist": {
+      "vi": "Nhà Huyền Thuật",
+      "zh": "神秘学家",
+      "desc": "Những cá nhân sở hữu năng lực huyền thuật đặc biệt"
+    },
+    "Arcanists": {
+      "vi": "Các Nhà Huyền Thuật",
+      "zh": "神秘学家",
+      "desc": "Dạng số nhiều của Arcanist"
+    },
+    "Arcanum": {
+      "vi": "Huyền Thuật",
+      "zh": "神秘术",
+      "desc": "Năng lượng và phép thuật bí ẩn của thế giới"
+    },
+    "St. Pavlov Foundation": {
+      "vi": "Quỹ Thánh Pavlov",
+      "zh": "圣洛夫基金会",
+      "desc": "Tổ chức nghiên cứu và bảo vệ trật tự thời gian"
+    },
+    "Foundation": {
+      "vi": "Quỹ Pavlov",
+      "zh": "基金会",
+      "desc": "Tên gọi tắt của Quỹ Thánh Pavlov"
+    },
+    "Manus Vindictae": {
+      "vi": "Bàn Tay Phục Thù",
+      "zh": "重塑之手",
+      "desc": "Tổ chức đối lập cực đoan do Arcana lãnh đạo"
+    },
+    "Manus Vindicta": {
+      "vi": "Bàn Tay Phục Thù",
+      "zh": "重塑之手",
+      "desc": "Tên biến thể của Manus Vindictae"
+    },
+    "Suitcase": {
+      "vi": "Chiếc Vali",
+      "zh": "手提箱",
+      "desc": "Vali không gian kỳ bí của Vertin, nơi che chở các Arcanist"
+    },
+    "Wilderness": {
+      "vi": "Vùng Hoang Dã",
+      "zh": "荒原",
+      "desc": "Không gian bên trong chiếc vali của Vertin"
+    },
+    "Limbo": {
+      "vi": "Vực Hỗn Loạn",
+      "zh": "酣梦地",
+      "desc": "Tầng cao nhất đầy thử thách của Mộng Du Nhân Tạo"
+    },
+    "Artificial Somnambulism": {
+      "vi": "Mộng Du Nhân Tạo",
+      "zh": "人工梦游",
+      "desc": "Không gian huấn luyện tâm thức"
+    },
+    "Vertin": {
+      "vi": "Vertin",
+      "zh": "维尔汀",
+      "desc": "Nhân vật chính, Timekeeper của Quỹ"
+    },
+    "Sonetto": {
+      "vi": "Sonetto",
+      "zh": "十四行诗",
+      "desc": "Trợ thủ trung thành, người bảo hộ của Vertin"
+    },
+    "Regulus": {
+      "vi": "Regulus",
+      "zh": "星锑",
+      "desc": "Nữ thuyền trưởng hải tặc rock London 1966"
+    },
+    "APPLe": {
+      "vi": "APPLe",
+      "zh": "APPLe",
+      "desc": "Quý ngài quả táo lịch lãm và uyên bác"
+    },
+    "Schneider": {
+      "vi": "Schneider",
+      "zh": "斯奈德",
+      "desc": "Tiểu thư mafia quyến rũ và nguy hiểm"
+    },
+    "Druvis III": {
+      "vi": "Druvis III",
+      "zh": "槲寄生",
+      "desc": "Quý cô tộc Druid với phong thái quý phái"
+    },
+    "Sotheby": {
+      "vi": "Sotheby",
+      "zh": "苏芙比",
+      "desc": "Nữ thừa kế ngây thơ yêu thích pha chế độc dược"
+    },
+    "Lilya": {
+      "vi": "Lilya",
+      "zh": "红弩箭",
+      "desc": "Nữ phi công Liên Xô phóng khoáng và dũng mãnh"
+    },
+    "A Knight": {
+      "vi": "Hiệp Sĩ Vô Danh",
+      "zh": "未锈铠",
+      "desc": "Chiến binh giáp trụ trung cổ uy nghiêm"
+    },
+    "Tooth Fairy": {
+      "vi": "Tiên Răng",
+      "zh": "牙仙",
+      "desc": "Nha sĩ huyền bí bảo vệ các sinh linh"
+    },
+    "Centurion": {
+      "vi": "Centurion",
+      "zh": "百夫长",
+      "desc": "Chiến binh may mắn người La Mã hiện đại"
+    },
+    "An-an Lee": {
+      "vi": "An-an Lee",
+      "zh": "泥鯭的士",
+      "desc": "Nữ trừ tà Hồng Kông năng động"
+    },
+    "Medicine Pocket": {
+      "vi": "Medicine Pocket",
+      "zh": "兔毛手袋",
+      "desc": "Nhà nghiên cứu lập dị nhưng thiên tài"
+    },
+    "Voyager": {
+      "vi": "Nhà Du Hành",
+      "zh": "远旅",
+      "desc": "Thực thể vũ trụ mang hình hài thiếu nữ vĩ cầm"
+    },
+    "Jessica": {
+      "vi": "Jessica",
+      "zh": "洁西卡",
+      "desc": "Tiên nữ hươu nai rừng rậm"
+    },
+    "Shamane": {
+      "vi": "Shamane",
+      "zh": "萨满",
+      "desc": "Thầy tế Shaman núi tuyết"
+    },
+    "Black Dwarf": {
+      "vi": "Sao Lùn Đen",
+      "zh": "黑矮星",
+      "desc": "Nhà thiên văn học kiên định"
+    },
+    "Kaalaa Baunaa": {
+      "vi": "Kaalaa Baunaa",
+      "zh": "伽菈波那",
+      "desc": "Tên tiếng Phạn của Sao Lùn Đen"
+    },
+    "37": {
+      "vi": "37",
+      "zh": "37",
+      "desc": "Thiên tài toán học đảo Apeiron"
+    },
+    "6": {
+      "vi": "6",
+      "zh": "6",
+      "desc": "Thủ lĩnh điềm đạm đảo Apeiron"
+    },
+    "Isolde": {
+      "vi": "Isolde",
+      "zh": "伊索尔德",
+      "desc": "Nữ ca sĩ opera Vienna quý tộc"
+    },
+    "Marcus": {
+      "vi": "Marcus",
+      "zh": "马库斯",
+      "desc": "Thành viên trẻ tuổi đầy nhiệt huyết"
+    },
+    "Lucy": {
+      "vi": "Lucy",
+      "zh": "露西",
+      "desc": "Người phụ nữ máy mang biểu tượng công nghiệp thế kỷ 20"
+    },
+    "Afflatus": {
+      "vi": "Bản Chất Linh Hồn",
+      "zh": "灵感",
+      "desc": "Hệ nguyên tố khắc chế trong game"
+    },
+    "Mineral": {
+      "vi": "Khoáng",
+      "zh": "岩",
+      "desc": "Hệ Đất / Khoáng vật"
+    },
+    "Beast": {
+      "vi": "Thú",
+      "zh": "兽",
+      "desc": "Hệ Dã Thú"
+    },
+    "Plant": {
+      "vi": "Mộc",
+      "zh": "木",
+      "desc": "Hệ Cây Cỏ"
+    },
+    "Star": {
+      "vi": "Tinh",
+      "zh": "星",
+      "desc": "Hệ Tinh Tú"
+    },
+    "Spirit": {
+      "vi": "Linh",
+      "zh": "灵",
+      "desc": "Hệ Linh Hồn"
+    },
+    "Intellect": {
+      "vi": "Trí",
+      "zh": "智",
+      "desc": "Hệ Trí Tuệ"
+    },
+    "Insight": {
+      "vi": "Thấu Thị",
+      "zh": "洞悉",
+      "desc": "Cấp độ tiến hóa/đột phá của nhân vật (Insight 1, 2, 3)"
+    },
+    "Resonance": {
+      "vi": "Cộng Hưởng",
+      "zh": "共鸣",
+      "desc": "Hệ thống khảm bảng nâng cao chỉ số"
+    },
+    "Psychube": {
+      "vi": "Khối Tâm Thức",
+      "zh": "心相",
+      "desc": "Trang bị hồi tưởng tăng cường sức mạnh"
+    },
+    "Psychubes": {
+      "vi": "Các Khối Tâm Thức",
+      "zh": "心相",
+      "desc": "Dạng số nhiều của Psychube"
+    },
+    "Moxie": {
+      "vi": "Điểm Nhiệt Huyết",
+      "zh": "激情",
+      "desc": "Điểm năng lượng tích lũy để thi triển Ultimate"
+    },
+    "Ultimate": {
+      "vi": "Tuyệt Kỹ Nghi Lễ",
+      "zh": "至终仪式",
+      "desc": "Kỹ năng tối thượng khi tích đủ 5 điểm Moxie"
+    },
+    "Incantation": {
+      "vi": "Chú Ngữ",
+      "zh": "神秘术",
+      "desc": "Thẻ bài kỹ năng thông thường"
+    },
+    "Incantations": {
+      "vi": "Các Chú Ngữ",
+      "zh": "神秘术",
+      "desc": "Dạng số nhiều của Incantation"
+    },
+    "Tuning": {
+      "vi": "Hòa Nhịp",
+      "zh": "调谐",
+      "desc": "Kỹ năng đặc biệt của Người Gìn Giữ Thời Gian trong trận"
+    },
+    "Reality DMG": {
+      "vi": "Sát Thương Thực Tế",
+      "zh": "现实创伤",
+      "desc": "Sát thương vật lý/thực tế"
+    },
+    "Mental DMG": {
+      "vi": "Sát Thương Tinh Thần",
+      "zh": "精神创伤",
+      "desc": "Sát thương phép thuật/tinh thần"
+    },
+    "Genesis DMG": {
+      "vi": "Sát Thương Bản Nguyên",
+      "zh": "本源创伤",
+      "desc": "Sát thương chuẩn bỏ qua phòng thủ"
+    },
+    "Reality DEF": {
+      "vi": "Kháng Thực Tế",
+      "zh": "现实防御",
+      "desc": "Phòng ngự trước sát thương thực tế"
+    },
+    "Mental DEF": {
+      "vi": "Kháng Tinh Thần",
+      "zh": "精神防御",
+      "desc": "Phòng ngự trước sát thương tinh thần"
+    },
+    "Crit Rate": {
+      "vi": "Tỉ Lệ Bạo Kích",
+      "zh": "暴击率",
+      "desc": "Tỉ lệ xuất hiện đòn chí mạng"
+    },
+    "Crit DMG": {
+      "vi": "Sát Thương Bạo Kích",
+      "zh": "暴击创伤",
+      "desc": "Hệ số sát thương khi bạo kích"
+    },
+    "Penetration Rate": {
+      "vi": "Tỉ Lệ Xuyên Giáp",
+      "zh": "穿透率",
+      "desc": "Tỉ lệ xuyên qua phòng ngự của kẻ địch"
+    },
+    "Leech Rate": {
+      "vi": "Tỉ Lệ Hút Máu",
+      "zh": "吸血率",
+      "desc": "Tỉ lệ hồi phục HP từ sát thương gây ra"
+    },
+    "Healing Done": {
+      "vi": "Hiệu Quả Hồi Máu",
+      "zh": "受愈",
+      "desc": "Tăng lượng máu hồi phục"
+    },
+    "DMG Taken Reduction": {
+      "vi": "Giảm Sát Thương Nhận Vào",
+      "zh": "创伤减免",
+      "desc": "Giảm thiểu sát thương phải gánh chịu"
+    },
+    "Clear Drop": {
+      "vi": "Giọt Mưa Thuần Khiết",
+      "zh": "纯雨滴",
+      "desc": "Tiền tệ cao cấp trả phí/nhiệm vụ"
+    },
+    "Clear Drops": {
+      "vi": "Giọt Mưa Thuần Khiết",
+      "zh": "纯雨滴",
+      "desc": "Dạng số nhiều của Clear Drop"
+    },
+    "Unilog": {
+      "vi": "Độc Nhất Luật",
+      "zh": "独一律",
+      "desc": "Vé quay chiêu mộ nhân vật"
+    },
+    "Unilogs": {
+      "vi": "Độc Nhất Luật",
+      "zh": "独一律",
+      "desc": "Dạng số nhiều của Unilog"
+    },
+    "Sharpodonty": {
+      "vi": "Sharpodonty",
+      "zh": "利齿子儿",
+      "desc": "Tiền tệ vàng phổ thông lưu hành"
+    },
+    "Sharodonty": {
+      "vi": "Sharpodonty",
+      "zh": "利齿子儿",
+      "desc": "Biến thể chính tả của Sharpodonty"
+    },
+    "Dust": {
+      "vi": "Bụi Ma Thuật",
+      "zh": "微尘",
+      "desc": "Nguyên liệu tăng cấp độ nhân vật"
+    },
+    "Picrasma Candy": {
+      "vi": "Kẹo Mắt Đắng",
+      "zh": "苦目糖果",
+      "desc": "Kẹo hồi phục thể lực/hoạt lực"
+    },
+    "Jar of Picrasma Candy": {
+      "vi": "Hũ Kẹo Mắt Đắng",
+      "zh": "苦目糖罐",
+      "desc": "Hũ chứa kẹo hồi phục thể lực"
+    },
+    "Wilderness Shell": {
+      "vi": "Vỏ Sò Hoang Dã",
+      "zh": "荒原贝壳",
+      "desc": "Tiền tệ mua sắm kiến trúc Hoang Dã"
+    },
+    "Goldfinch Coin": {
+      "vi": "Xu Chim Sẻ Vàng",
+      "zh": "金翅雀币",
+      "desc": "Tiền tệ đặc biệt trong thám hiểm"
+    },
+    "Goldfinch Coins": {
+      "vi": "Xu Chim Sẻ Vàng",
+      "zh": "金翅雀币",
+      "desc": "Dạng số nhiều của Goldfinch Coin"
+    },
+    "Ritual Disk": {
+      "vi": "Đĩa Nghi Lễ",
+      "zh": "仪式圆盘",
+      "desc": "Đạo cụ kích hoạt bùa chú thám hiểm"
+    },
+    "Comradery": {
+      "vi": "Độ Gắn Kết Đồng Đội",
+      "zh": "战友度",
+      "desc": "Chỉ số tin cậy giữa các thành viên"
+    },
+    "Obsession": {
+      "vi": "Ám Ảnh",
+      "zh": "执念",
+      "desc": "Chỉ số tâm lý đặc thù trong chế độ thám hiểm"
+    },
+    "Log in": {
+      "vi": "Đăng nhập",
+      "zh": "登录",
+      "desc": "Hành động vào game"
+    },
+    "Sign in": {
+      "vi": "Điểm danh",
+      "zh": "签到",
+      "desc": "Hành động điểm danh nhận quà"
+    },
+    "Claim": {
+      "vi": "Nhận",
+      "zh": "领取",
+      "desc": "Nhận phần thưởng"
+    },
+    "Claim All": {
+      "vi": "Nhận Toàn Bộ",
+      "zh": "一键领取",
+      "desc": "Nhận tất cả phần thưởng có sẵn"
+    },
+    "Claimed": {
+      "vi": "Đã Nhận",
+      "zh": "已领取",
+      "desc": "Trạng thái phần thưởng đã nhận"
+    },
+    "Confirm": {
+      "vi": "Xác Nhận",
+      "zh": "确认",
+      "desc": "Nút xác nhận hành động"
+    },
+    "Cancel": {
+      "vi": "Hủy Bỏ",
+      "zh": "取消",
+      "desc": "Nút hủy hành động"
+    },
+    "Close": {
+      "vi": "Đóng",
+      "zh": "关闭",
+      "desc": "Nút đóng cửa sổ"
+    },
+    "Back": {
+      "vi": "Quay Lại",
+      "zh": "返回",
+      "desc": "Nút lùi về trang trước"
+    },
+    "Next": {
+      "vi": "Tiếp Tục",
+      "zh": "下一步",
+      "desc": "Nút sang bước kế tiếp"
+    },
+    "Exit": {
+      "vi": "Thoát",
+      "zh": "退出",
+      "desc": "Nút rời khỏi"
+    },
+    "Rest here": {
+      "vi": "Nghỉ chân tại đây",
+      "zh": "原地歇息",
+      "desc": "Lựa chọn nghỉ ngơi hồi phục"
+    },
+    "Advance cautiously": {
+      "vi": "Cẩn trọng tiến bước",
+      "zh": "谨慎前行",
+      "desc": "Lựa chọn hành tiến an toàn"
+    },
+    "Return Exit": {
+      "vi": "Lối Thoát Trở Về",
+      "zh": "返程出口",
+      "desc": "Điểm rút lui an toàn"
+    },
+    "Challenge Record": {
+      "vi": "Kỷ Lục Khiêu Chiến",
+      "zh": "赛事回顾",
+      "desc": "Lịch sử trận đấu và thành tích"
+    },
+    "Crystal Casket": {
+      "vi": "Tráp Pha Lê",
+      "zh": "水晶匣",
+      "desc": "Hộp chứa vật phẩm cao cấp"
+    },
+    "Beginning of the Tale": {
+      "vi": "Khởi Đầu Giai Thoại",
+      "zh": "故事的最初",
+      "desc": "Chương mở đầu hành trình"
+    },
+    "Storm Visitors": {
+      "vi": "Lữ Khách Cơn Bão",
+      "zh": "暴雨来客",
+      "desc": "Sự kiện chào đón người chơi mới"
+    },
+    "8 Daily Letters": {
+      "vi": "8 Bức Thư Hằng Ngày",
+      "zh": "8日信件",
+      "desc": "Chuỗi điểm danh thư từ 8 ngày"
+    }
   }
 }

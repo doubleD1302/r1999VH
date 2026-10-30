@@ -1,0 +1,5017 @@
+{
+  "patch_id": "UI_PATCH_03",
+  "count": 1000,
+  "status": "CERTIFIED_LIGHTNOVEL_VI",
+  "reviewer_signatures": [
+    "Reviewer Agent 1: Glossary Verified",
+    "Reviewer Agent 2: Light Novel Anime Polished",
+    "Reviewer Agent 3: Syntax & RichText Validated"
+  ],
+  "items": [
+    {
+      "id": "language_10002003",
+      "source": "Hungry Phonograph · Exhila + Debuffat",
+      "target": "Máy Hát Đói Khát · Hưng Phấn + Suy Yếu"
+    },
+    {
+      "id": "language_10002004",
+      "source": "Hungry Phonograph · Exhila + Acta",
+      "target": "Máy Hát Đói Khát · Hưng Phấn + Hành Động"
+    },
+    {
+      "id": "language_10002005",
+      "source": "Hungry Phonograph · Lucky + Lucky",
+      "target": "Máy Hát Đói Khát · May Mắn + May Mắn"
+    },
+    {
+      "id": "language_10002006",
+      "source": "Hungry Phonograph · Lucky + Heatcut",
+      "target": "Máy Hát Đói Khát · May Mắn + Giảm nhiệt"
+    },
+    {
+      "id": "language_10002007",
+      "source": "Hungry Phonograph · Lucky + Natura",
+      "target": "Máy Hát Đói Khát · Lucky + Tự Nhiên"
+    },
+    {
+      "id": "language_10002008",
+      "source": "Hungry Phonograph · Lucky + Buffat",
+      "target": "Máy Hát Đói Khát · May Mắn + Cường Hóa"
+    },
+    {
+      "id": "language_10002009",
+      "source": "Hungry Phonograph · Lucky + Debuffat",
+      "target": "Máy Hát Đói Khát · May Mắn + Suy Yếu"
+    },
+    {
+      "id": "language_10002010",
+      "source": "Hungry Phonograph · Lucky + Acta",
+      "target": "Máy Hát Đói Khát · Lucky + Hành Động"
+    },
+    {
+      "id": "language_10002011",
+      "source": "Hungry Phonograph · Heatcut + Heatcut",
+      "target": "Máy Hát Đói Khát · Cắt nhiệt + Cắt nhiệt"
+    },
+    {
+      "id": "language_10002012",
+      "source": "Hungry Phonograph · Heatcut + Natura",
+      "target": "Máy Hát Đói Khát · Nhiệt Cắt + Tự Nhiên"
+    },
+    {
+      "id": "language_10002013",
+      "source": "Hungry Phonograph · Heatcut + Buffat",
+      "target": "Máy Hát Đói Khát · Nhiệt Cắt + Cường Hóa"
+    },
+    {
+      "id": "language_10002014",
+      "source": "Hungry Phonograph · Heatcut + Debuffat",
+      "target": "Máy Hát Đói Khát · Nhiệt Cắt + Suy Yếu"
+    },
+    {
+      "id": "language_10002015",
+      "source": "Hungry Phonograph · Heatcut + Acta",
+      "target": "Máy Hát Đói Khát · Nhiệt Cắt + Hành Động"
+    },
+    {
+      "id": "language_10002016",
+      "source": "Hungry Phonograph · Natura + Natura",
+      "target": "Máy Hát Đói Khát · Tự Nhiên + Tự Nhiên"
+    },
+    {
+      "id": "language_10002017",
+      "source": "Hungry Phonograph · Natura + Buffat",
+      "target": "Máy Hát Đói Khát · Tự Nhiên + Cường Hóa"
+    },
+    {
+      "id": "language_10002018",
+      "source": "Hungry Phonograph · Natura + Debuffat",
+      "target": "Máy Hát Đói Khát · Tự Nhiên + Suy Yếu"
+    },
+    {
+      "id": "language_10002019",
+      "source": "Hungry Phonograph · Natura + Acta",
+      "target": "Máy Hát Đói Khát · Tự Nhiên + Hành Động"
+    },
+    {
+      "id": "language_10002020",
+      "source": "Hungry Phonograph · Buffat + Buffat",
+      "target": "Máy Hát Đói Khát · Cường Hóa + Cường Hóa"
+    },
+    {
+      "id": "language_10002021",
+      "source": "Hungry Phonograph · Buffat + Debuffat",
+      "target": "Máy Hát Đói Khát · Cường Hóa + Suy Yếu"
+    },
+    {
+      "id": "language_10002022",
+      "source": "Hungry Phonograph · Buffat + Acta",
+      "target": "Máy Hát Đói Khát · Cường Hóa + Hành Động"
+    },
+    {
+      "id": "language_10002023",
+      "source": "Hungry Phonograph · Debuffat + Debuffat",
+      "target": "Máy Hát Đói Khát · Suy Yếu + Suy Yếu"
+    },
+    {
+      "id": "language_10002024",
+      "source": "Hungry Phonograph · Debuffat + Acta",
+      "target": "Máy Hát Đói Khát · Suy Yếu + Hành Động"
+    },
+    {
+      "id": "language_10002025",
+      "source": "Hungry Phonograph · Acta + Acta",
+      "target": "Máy Hát Đói Khát · Hành Động + Hành Động"
+    },
+    {
+      "id": "language_10002026",
+      "source": "Belladonna Ointment",
+      "target": "Thuốc mỡ Belladonna"
+    },
+    {
+      "id": "language_10002027",
+      "source": "This ointment is not only a good analgesic, it can also serve as a deadly poison, its dark purple hue mimicking the dilated pupils of its confused and fainting ingester. Use with caution.",
+      "target": "Loại thuốc mỡ này không chỉ có tác dụng giảm đau tốt mà còn có thể dùng như một chất độc chết người, màu tím sẫm của nó bắt chước đồng tử giãn ra của chất nuốt vào bị bối rối và ngất xỉu. Sử dụng một cách thận trọng."
+    },
+    {
+      "id": "language_10002028",
+      "source": "Belladonna Ointment · Exhila",
+      "target": "Thuốc mỡ Belladonna · Hưng Phấn"
+    },
+    {
+      "id": "language_10002029",
+      "source": "Belladonna Ointment · Lucky",
+      "target": "Thuốc mỡ Belladonna · May Mắn"
+    },
+    {
+      "id": "language_10002030",
+      "source": "Belladonna Ointment · Heatcut",
+      "target": "Thuốc mỡ Belladonna · Cắt nhiệt"
+    },
+    {
+      "id": "language_10002031",
+      "source": "Belladonna Ointment · Natura",
+      "target": "Thuốc mỡ Belladonna · Tự Nhiên"
+    },
+    {
+      "id": "language_10002032",
+      "source": "Belladonna Ointment · Buffat",
+      "target": "Thuốc mỡ Belladonna · Cường Hóa"
+    },
+    {
+      "id": "language_10002033",
+      "source": "Belladonna Ointment · Debuffat",
+      "target": "Thuốc mỡ Belladonna · Suy Yếu"
+    },
+    {
+      "id": "language_10002034",
+      "source": "Belladonna Ointment · Acta",
+      "target": "Thuốc mỡ Belladonna · Hành Động"
+    },
+    {
+      "id": "language_10002035",
+      "source": "Laurel Basket",
+      "target": "Giỏ nguyệt quế"
+    },
+    {
+      "id": "language_10002036",
+      "source": "Someone once read fables about the roots and stamens of this plant spreading mightily over the land. Victory itself is power.",
+      "target": "Có người từng đọc truyện ngụ ngôn về rễ và nhị của loài cây này lan rộng khắp nơi. Bản thân chiến thắng đã là sức mạnh."
+    },
+    {
+      "id": "language_10002037",
+      "source": "Laurel Basket · Exhila",
+      "target": "Giỏ nguyệt quế · Hưng Phấn"
+    },
+    {
+      "id": "language_10002038",
+      "source": "Laurel Basket · Lucky",
+      "target": "Giỏ nguyệt quế · May Mắn"
+    },
+    {
+      "id": "language_10002039",
+      "source": "Laurel Basket · Heatcut",
+      "target": "Giỏ nguyệt quế · Cắt nhiệt"
+    },
+    {
+      "id": "language_10002040",
+      "source": "Laurel Basket · Natura",
+      "target": "Giỏ nguyệt quế · Tự Nhiên"
+    },
+    {
+      "id": "language_10002041",
+      "source": "Laurel Basket · Buffat",
+      "target": "Giỏ nguyệt quế · Buffet"
+    },
+    {
+      "id": "language_10002042",
+      "source": "Laurel Basket · Debuffat",
+      "target": "Giỏ nguyệt quế · Suy Yếu"
+    },
+    {
+      "id": "language_10002043",
+      "source": "Laurel Basket · Acta",
+      "target": "Giỏ nguyệt quế · Hành Động"
+    },
+    {
+      "id": "language_10002044",
+      "source": "Laurel Basket · Exhila + Exhila",
+      "target": "Giỏ nguyệt quế · Hưng Phấn + Hưng Phấn"
+    },
+    {
+      "id": "language_10002045",
+      "source": "Laurel Basket · Exhila + Lucky",
+      "target": "Giỏ nguyệt quế · Hưng Phấn + Lucky"
+    },
+    {
+      "id": "language_10002046",
+      "source": "Laurel Basket · Exhila + Heatcut",
+      "target": "Giỏ nguyệt quế · Hưng Phấn + Nhiệt Cắt"
+    },
+    {
+      "id": "language_10002047",
+      "source": "Laurel Basket · Exhila + Natura",
+      "target": "Giỏ nguyệt quế · Hưng Phấn + Tự Nhiên"
+    },
+    {
+      "id": "language_10002048",
+      "source": "Laurel Basket · Exhila + Buffat",
+      "target": "Giỏ nguyệt quế · Hưng Phấn + Cường Hóa"
+    },
+    {
+      "id": "language_10002049",
+      "source": "Laurel Basket · Exhila + Debuffat",
+      "target": "Giỏ nguyệt quế · Hưng Phấn + Suy Yếu"
+    },
+    {
+      "id": "language_10002050",
+      "source": "Laurel Basket · Exhila + Acta",
+      "target": "Giỏ nguyệt quế · Hưng Phấn + Hành Động"
+    },
+    {
+      "id": "language_10002051",
+      "source": "Laurel Basket · Lucky + Lucky",
+      "target": "Giỏ nguyệt quế · May Mắn + May Mắn"
+    },
+    {
+      "id": "language_10002052",
+      "source": "Laurel Basket · Lucky + Heatcut",
+      "target": "Giỏ nguyệt quế · May Mắn + Nhiệt Cắt"
+    },
+    {
+      "id": "language_10002053",
+      "source": "Laurel Basket · Lucky + Natura",
+      "target": "Giỏ nguyệt quế · May Mắn + Tự Nhiên"
+    },
+    {
+      "id": "language_10002054",
+      "source": "Laurel Basket · Lucky + Buffat",
+      "target": "Giỏ nguyệt quế · May Mắn + Cường Hóa"
+    },
+    {
+      "id": "language_10002055",
+      "source": "Laurel Basket · Lucky + Debuffat",
+      "target": "Giỏ nguyệt quế · May Mắn + Suy Yếu"
+    },
+    {
+      "id": "language_10002056",
+      "source": "Laurel Basket · Lucky + Acta",
+      "target": "Giỏ nguyệt quế · May Mắn + Hành Động"
+    },
+    {
+      "id": "language_10002057",
+      "source": "Laurel Basket · Heatcut + Heatcut",
+      "target": "Giỏ nguyệt quế · Cắt nhiệt + Cắt nhiệt"
+    },
+    {
+      "id": "language_10002058",
+      "source": "Laurel Basket · Heatcut + Natura",
+      "target": "Giỏ nguyệt quế · Nhiệt Cắt + Tự Nhiên"
+    },
+    {
+      "id": "language_10002059",
+      "source": "Laurel Basket · Heatcut + Buffat",
+      "target": "Giỏ nguyệt quế · Nhiệt Cắt + Buffet"
+    },
+    {
+      "id": "language_10002060",
+      "source": "Laurel Basket · Heatcut + Debuffat",
+      "target": "Giỏ nguyệt quế · Nhiệt Cắt + Suy Yếu"
+    },
+    {
+      "id": "language_10002061",
+      "source": "Laurel Basket · Heatcut + Acta",
+      "target": "Giỏ nguyệt quế · Nhiệt Cắt + Hành Động"
+    },
+    {
+      "id": "language_10002062",
+      "source": "Laurel Basket · Natura + Natura",
+      "target": "Giỏ nguyệt quế · Tự Nhiên + Tự Nhiên"
+    },
+    {
+      "id": "language_10002063",
+      "source": "Laurel Basket · Natura + Buffat",
+      "target": "Giỏ nguyệt quế · Tự Nhiên + Cường Hóa"
+    },
+    {
+      "id": "language_10002064",
+      "source": "Laurel Basket · Natura + Debuffat",
+      "target": "Giỏ nguyệt quế · Tự Nhiên + Suy Yếu"
+    },
+    {
+      "id": "language_10002065",
+      "source": "Laurel Basket · Natura + Acta",
+      "target": "Giỏ nguyệt quế · Tự Nhiên + Hành Động"
+    },
+    {
+      "id": "language_10002066",
+      "source": "Laurel Basket · Buffat + Buffat",
+      "target": "Giỏ nguyệt quế · Cường Hóa + Cường Hóa"
+    },
+    {
+      "id": "language_10002067",
+      "source": "Laurel Basket · Buffat + Debuffat",
+      "target": "Giỏ nguyệt quế · Cường Hóa + Suy Yếu"
+    },
+    {
+      "id": "language_10002068",
+      "source": "Laurel Basket · Buffat + Acta",
+      "target": "Giỏ nguyệt quế · Cường Hóa + Hành Động"
+    },
+    {
+      "id": "language_10002069",
+      "source": "Laurel Basket · Debuffat + Debuffat",
+      "target": "Giỏ nguyệt quế · Suy Yếu + Suy Yếu"
+    },
+    {
+      "id": "language_10002070",
+      "source": "Laurel Basket · Debuffat + Acta",
+      "target": "Giỏ nguyệt quế · Suy Yếu + Hành Động"
+    },
+    {
+      "id": "language_10002071",
+      "source": "Laurel Basket · Acta + Acta",
+      "target": "Giỏ nguyệt quế · Hành Động + Hành Động"
+    },
+    {
+      "id": "language_10002072",
+      "source": "Saliva Bottle",
+      "target": "chai nước bọt"
+    },
+    {
+      "id": "language_10002073",
+      "source": "A glass spray bottle containing a mixture of Critter saliva. The owner no longer has to worry about losing a \"war of words\" due to poor speech.",
+      "target": "Một chai xịt thủy tinh chứa hỗn hợp nước bọt Critter. Gia chủ không còn phải lo thua cuộc “khẩu chiến” do ăn nói kém."
+    },
+    {
+      "id": "language_10002074",
+      "source": "Wailing Lantern",
+      "target": "Đèn lồng than khóc"
+    },
+    {
+      "id": "language_10002075",
+      "source": "Disclaimer: The ghosts and whimpering sounds produced are merely artificial creations attributed to the functionality of the product, simulated using arcane projection skills and sound recording techniques. No ghosts or spirits were harmed in the production of this lantern.",
+      "target": "Tuyên bố miễn trừ trách nhiệm: Những bóng ma và âm thanh thút thít được tạo ra chỉ là những sáng tạo nhân tạo do chức năng của sản phẩm, được mô phỏng bằng kỹ năng trình chiếu phức tạp và kỹ thuật ghi âm. Không có bóng ma hay linh hồn nào bị tổn hại trong quá trình sản xuất chiếc đèn lồng này."
+    },
+    {
+      "id": "language_10002076",
+      "source": "Spirit Decanter",
+      "target": "Bình Rượu"
+    },
+    {
+      "id": "language_10002077",
+      "source": "A vessel used to store incantations that can merge with and enhance the power of the incantations it holds. To make the color of its contents appear more enticing, many arcanists add useless incantations such as \"Stains Remain\" and \"Clothes Be Wet\".",
+      "target": "Một vật chứa dùng để lưu trữ những câu thần chú có thể hợp nhất và tăng cường sức mạnh của những câu thần chú mà nó nắm giữ. Để làm cho màu sắc bên trong trông hấp dẫn hơn, nhiều nhà thuật thuật đã thêm những câu thần chú vô dụng như \"Vết bẩn còn sót lại\" và \"Quần áo ướt\"."
+    },
+    {
+      "id": "language_10002078",
+      "source": "Spirit Decanter · Exhila",
+      "target": "Bình Đựng Rượu · Hưng Phấn"
+    },
+    {
+      "id": "language_10002079",
+      "source": "Spirit Decanter · Lucky",
+      "target": "Bình Rượu · May Mắn"
+    },
+    {
+      "id": "language_10002080",
+      "source": "Spirit Decanter · Heatcut",
+      "target": "Bình Đựng Rượu · Nhiệt Cắt"
+    },
+    {
+      "id": "language_10002081",
+      "source": "Spirit Decanter · Natura",
+      "target": "Bình Đựng Rượu · Tự Nhiên"
+    },
+    {
+      "id": "language_10002082",
+      "source": "Spirit Decanter · Buffat",
+      "target": "Bình Rượu · Cường Hóa"
+    },
+    {
+      "id": "language_10002083",
+      "source": "Spirit Decanter · Debuffat",
+      "target": "Bình Đựng Rượu · Suy Yếu"
+    },
+    {
+      "id": "language_10002084",
+      "source": "Spirit Decanter · Acta",
+      "target": "Bình Đựng Rượu · Hành Động"
+    },
+    {
+      "id": "language_10002085",
+      "source": "Lightning Converter",
+      "target": "Bộ chuyển đổi sét"
+    },
+    {
+      "id": "language_10002086",
+      "source": "One of Laplace's technological feats. Can convert lightning current into a controlled electrical barrier by turning a dial, effectively ensuring the safety of investigators in the field. The use of this device by untrained personnel is strictly prohibited.",
+      "target": "Một trong những thành tựu công nghệ của Laplace. Có thể chuyển đổi dòng điện sét thành hàng rào điện được điều khiển bằng cách xoay nút xoay, đảm bảo hiệu quả sự an toàn cho các điều tra viên tại hiện trường. Việc sử dụng thiết bị này bởi nhân viên chưa được đào tạo đều bị nghiêm cấm."
+    },
+    {
+      "id": "language_10002087",
+      "source": "Rabbit Foot",
+      "target": "chân thỏ"
+    },
+    {
+      "id": "language_10002088",
+      "source": "A ubiquitous talisman that is said to bring all sorts of good luck, such as \"not forgetting to bring an umbrella when leaving home,\" \"finding your ID card before reporting it lost,\" and \"free samples of Critter food.\"",
+      "target": "Một lá bùa phổ biến được cho là mang lại mọi điều May Mắn, chẳng hạn như \"không quên mang theo ô khi ra khỏi nhà\", \"tìm lại chứng minh thư trước khi báo mất\" và \"mẫu thức ăn Critter miễn phí\"."
+    },
+    {
+      "id": "language_10002089",
+      "source": "Piglet Chain",
+      "target": "Chuỗi heo con"
+    },
+    {
+      "id": "language_10002090",
+      "source": "Similar to growing a pearl in an oyster, planting a basket of iron nails and resentments deep in the fertile soil can produce this item during the next season's rains.",
+      "target": "Tương tự như việc trồng ngọc trong hàu, trồng giỏ đinh sắt và oán hận sâu trong đất màu mỡ có thể ra được vật phẩm này trong những trận mưa mùa sau."
+    },
+    {
+      "id": "language_10002091",
+      "source": "Rapier Pin",
+      "target": "Ghim Rapier"
+    },
+    {
+      "id": "language_10002092",
+      "source": "The story goes that this brooch was once pinned to the collar of a king who could no longer wield a sword. It stoically projects a moment of melancholy in its silver reflection.",
+      "target": "Chuyện kể rằng chiếc trâm cài này từng được ghim vào cổ áo của một vị vua không còn có thể sử dụng kiếm nữa. Nó thể hiện một cách kiên cường khoảnh khắc u sầu trong hình ảnh phản chiếu màu bạc của nó."
+    },
+    {
+      "id": "language_10002093",
+      "source": "Silk Hankie",
+      "target": "Áo lụa tơ tằm"
+    },
+    {
+      "id": "language_10002094",
+      "source": "A collector's item among the Danish nobility. It is said to have once wiped a prince's sweat during a duel and once absorbed poisoned wine from a queen's lips. The nobility believe it has been imbued with priceless wisdom.",
+      "target": "Một món đồ sưu tầm của giới quý tộc Đan Mạch. Người ta kể rằng nó đã từng lau mồ hôi cho hoàng tử trong một trận đấu tay đôi và từng hấp thụ rượu độc từ môi nữ hoàng. Giới quý tộc tin rằng nó đã thấm nhuần trí tuệ vô giá."
+    },
+    {
+      "id": "language_10002095",
+      "source": "Lizard Frill",
+      "target": "thằn lằn diềm"
+    },
+    {
+      "id": "language_10002096",
+      "source": "Proof that ruffs can be both stylish and practical. This improved frilled lizard ruff not only reduces the strain on your cervical spine, but it can also be quite intimidating in battle. Trendsetters, you heard it here first—the wave of the future is here.",
+      "target": "Bằng chứng là áo khoác có thể vừa phong cách vừa thiết thực. Chiếc áo thằn lằn có diềm cải tiến này không chỉ làm giảm căng thẳng cho cột sống cổ của bạn mà còn có thể khá đáng sợ trong trận chiến. Những người tạo ra xu hướng, bạn đã nghe điều này lần đầu tiên—làn sóng của tương lai đang ở đây."
+    },
+    {
+      "id": "language_10002097",
+      "source": "Potionist's Belt",
+      "target": "Đai độc dược"
+    },
+    {
+      "id": "language_10002098",
+      "source": "The ultimate accessory for professional potion alchemists! Featuring more storage space, more versatile container slots, and a more comfortable fit, a famous London auction house has already bought 200 of them!",
+      "target": "Phụ kiện tối ưu dành cho các nhà giả kim thuốc chuyên nghiệp! Với nhiều không gian lưu trữ hơn, nhiều ngăn đựng linh hoạt hơn và vừa vặn hơn, một nhà đấu giá nổi tiếng ở London đã mua 200 chiếc trong số đó!"
+    },
+    {
+      "id": "language_10002099",
+      "source": "Hunter's Goggles",
+      "target": "Kính thợ săn"
+    },
+    {
+      "id": "language_10002100",
+      "source": "Part of the \"Law of the Jungle\" accessory series. This series is designed to reflect the notions of wildness, sensuality, and power, with each accessory embodying a different concept. This particular piece symbolizes \"Insight.\"",
+      "target": "Một phần của loạt phụ kiện \"Luật rừng\". Dòng sản phẩm này được thiết kế để phản ánh các khái niệm về sự Vùng Hoang Dã, gợi cảm và quyền lực, với mỗi phụ kiện thể hiện một khái niệm khác nhau. Phần đặc biệt này tượng trưng cho \"Thấu Thị\"."
+    },
+    {
+      "id": "language_10002101",
+      "source": "Superstar Tie",
+      "target": "Cà vạt siêu sao"
+    },
+    {
+      "id": "language_10002102",
+      "source": "Shine like a star! Wearing this tie guarantees you the confidence of a true superstar. Just watch as your star power outshines everyone and everything.",
+      "target": "Tỏa sáng như một ngôi sao! Đeo chiếc cà vạt này đảm bảo cho bạn sự tự tin của một siêu sao thực thụ. Hãy xem sức mạnh ngôi sao của bạn tỏa sáng hơn mọi người và mọi thứ."
+    },
+    {
+      "id": "language_10002103",
+      "source": "Medical Bandage",
+      "target": "Băng y tế"
+    },
+    {
+      "id": "language_10002104",
+      "source": "A simple medical bandage, nothing out of the ordinary. But sometimes, even the most ordinary things can bring relief from pain.",
+      "target": "Một miếng băng y tế đơn giản, không có gì khác thường. Nhưng đôi khi, ngay cả những điều bình thường nhất cũng có thể xoa dịu nỗi đau."
+    },
+    {
+      "id": "language_10002105",
+      "source": "Cookie Hat",
+      "target": "Mũ bánh quy"
+    },
+    {
+      "id": "language_10002106",
+      "source": "A cute little hat that emits the charming aroma of vanilla and cream, helping to calm the nerves and provide relaxation. However, upon learning that this thing isn't edible, most of its <nobr>mood-altering</nobr> effects are immediately negated.",
+      "target": "Một chiếc mũ nhỏ xinh xắn tỏa ra mùi thơm quyến rũ của vani và kem, giúp xoa dịu thần kinh và mang lại cảm giác thư thái. Tuy nhiên, khi biết rằng thứ này không ăn được, hầu hết tác dụng làm thay đổi tâm trạng của nó đều bị vô hiệu hóa ngay lập tức."
+    },
+    {
+      "id": "language_10002107",
+      "source": "Octopus Glove",
+      "target": "Găng tay bạch tuộc"
+    },
+    {
+      "id": "language_10002108",
+      "source": "Need help with your homework? We've got you covered! By incorporating live Kraken neurons into a pliable fabric medium, we've created a glove that makes your hands as flexible as an octopus with three missing tentacles.",
+      "target": "Cần giúp đỡ với bài tập về nhà của bạn? Chúng tôi đã bảo vệ bạn! Bằng cách kết hợp các tế bào thần kinh Kraken sống vào môi trường vải dẻo, chúng tôi đã tạo ra một chiếc găng tay giúp bàn tay của bạn linh hoạt như một con bạch tuộc bị mất ba xúc tu."
+    },
+    {
+      "id": "language_10002109",
+      "source": "Mage Hat",
+      "target": "Mũ Nhà Huyền Thuật"
+    },
+    {
+      "id": "language_10002110",
+      "source": "An exaggerated velvet hat that gives the wearer the air of a mysterious, elegant, magnificent and noble street performer.",
+      "target": "Chiếc mũ nhung phóng đại mang đến cho người đội vẻ thần bí, thanh lịch, lộng lẫy và quý phái của nghệ sĩ biểu diễn đường phố."
+    },
+    {
+      "id": "language_10002111",
+      "source": "Cat's Eye Ring",
+      "target": "Nhẫn mắt mèo"
+    },
+    {
+      "id": "language_10002112",
+      "source": "A silver ring in the shape of a crescent moon, originally used in various transformation rituals. When the arcanist who made it accidentally inserted a real cat's eye instead of a cat's eye opal, the ring's effect was drastically altered.",
+      "target": "Một chiếc nhẫn bạc có hình trăng lưỡi liềm, ban đầu được sử dụng trong nhiều nghi lễ biến đổi khác nhau. Khi người thợ kim hoàn vô tình nhét một viên đá mắt mèo thật vào thay vì một viên đá mắt mèo, tác dụng của chiếc nhẫn đã bị thay đổi đáng kể."
+    },
+    {
+      "id": "language_10002113",
+      "source": "Military Canteen",
+      "target": "căng tin quân đội"
+    },
+    {
+      "id": "language_10002114",
+      "source": "One of the essential items that Zeno Arms Academy provides to its internal staff. Please make sure that you don't take someone else's canteen by mistake, as the contents could be a nasty surprise.",
+      "target": "Một trong những vật dụng thiết yếu mà Học viện vũ khí Zeno cung cấp cho nhân viên nội bộ của mình. Hãy đảm bảo rằng bạn không lấy nhầm căng tin của người khác vì nội dung bên trong có thể gây bất ngờ khó chịu."
+    },
+    {
+      "id": "language_10002115",
+      "source": "Old Sack",
+      "target": "Bao Cũ"
+    },
+    {
+      "id": "language_10002116",
+      "source": "A favorite of old country farmers, it always seems to have extra grains to shake out. Although as magical as the goose that laid the golden eggs, it wasn't chosen as the subject of a fairy tale because of its mundane nature.",
+      "target": "Là món yêu thích của những người nông dân ở vùng quê cũ, nó dường như luôn có thêm ngũ cốc để lắc. Mặc dù có phép thuật như con ngỗng đẻ trứng vàng nhưng nó không được chọn làm chủ đề của truyện cổ tích vì tính chất trần tục của nó."
+    },
+    {
+      "id": "language_10002117",
+      "source": "Emerald Ring",
+      "target": "Nhẫn Ngọc Lục Bảo"
+    },
+    {
+      "id": "language_10002118",
+      "source": "A ring that doesn't actually contain emeralds. This piece is actually a protective talisman that a father made for his daughter before she went on a long journey. Even though it was made of cheap materials, its value is priceless.",
+      "target": "Một chiếc nhẫn thực sự không chứa ngọc lục bảo. Tác phẩm này thực chất là một tấm bùa bảo vệ mà một người cha đã làm cho con gái mình trước khi cô bé trải qua một chuyến hành trình dài. Mặc dù nó được làm bằng vật liệu rẻ tiền nhưng giá trị của nó là vô giá."
+    },
+    {
+      "id": "language_10002119",
+      "source": "Magic Cape",
+      "target": "Áo choàng ma thuật"
+    },
+    {
+      "id": "language_10002120",
+      "source": "A fancy short velvet cape. The magician cannot use it to cover his sleight of hand, and must flick it away from time to time so that it doesn't interfere with the performance.",
+      "target": "Một chiếc áo choàng nhung ngắn lạ mắt. Ảo thuật gia không thể dùng nó để che đi sự khéo léo của bàn tay mà thỉnh thoảng phải hất nó ra xa để không ảnh hưởng đến màn trình diễn."
+    },
+    {
+      "id": "language_10002121",
+      "source": "Jungle Whisper",
+      "target": "Lời thì thầm của rừng"
+    },
+    {
+      "id": "language_10002122",
+      "source": "Gleaned from the murmurs of the jungle on the cusp of winter and spring. The incantation acquired from the processing of this essence is a pale turquoise and contains secrets that are subsequently bottled and sprayed.",
+      "target": "Lượm lặt từ tiếng rì rào của rừng già trên đỉnh đầu đông xuân. Câu thần chú thu được từ quá trình xử lý tinh chất này có màu ngọc lam nhạt và chứa đựng những bí mật sau đó được đóng chai và phun ra."
+    },
+    {
+      "id": "language_10002123",
+      "source": "Rabbit Feet",
+      "target": "chân thỏ"
+    },
+    {
+      "id": "language_10002124",
+      "source": "Due to the availability of raw materials and simple production method involved in their creation, vendors often hoard many unsold rabbit feet, bundling them together and labeling them as \"giant mutant rabbit feet\" to deceive inexperienced buyers.",
+      "target": "Do có sẵn nguyên liệu thô và phương pháp sản xuất đơn giản nên người bán hàng thường tích trữ nhiều chân thỏ chưa bán được, bó chúng lại với nhau và dán nhãn là \"chân thỏ đột biến khổng lồ\" để đánh lừa những người mua thiếu kinh nghiệm."
+    },
+    {
+      "id": "language_10002125",
+      "source": "Frog Handbag",
+      "target": "Túi xách ếch"
+    },
+    {
+      "id": "language_10002126",
+      "source": "Frog skin is one of the most forgiving materials around. It will take your snotty tissues, expired chewing gum, and broken shell casings without a single complaint.",
+      "target": "Da ếch là một trong những vật liệu dễ tha thứ nhất. Nó sẽ lấy đi khăn giấy có mùi hôi, kẹo cao su hết hạn và vỏ sò bị vỡ mà không có một lời phàn nàn nào."
+    },
+    {
+      "id": "language_10002127",
+      "source": "A drunkard once bragged about his military exploits and produced this as \"physical evidence. According to him, he once infiltrated an enemy camp alone and captured some important information... but he can't seem to remember the name of that particular battle.",
+      "target": "Một người say rượu từng khoe khoang về chiến công quân sự của mình và đưa ra đây làm \"bằng chứng vật chất. Theo anh ta, anh ta đã từng một mình thâm nhập vào trại địch và thu được một số thông tin quan trọng... nhưng dường như anh ta không thể nhớ tên của trận chiến cụ thể đó."
+    },
+    {
+      "id": "language_10002128",
+      "source": "Cursed by its wearer, who was tormented by cheap, itchy fabric, anyone who touches this hat will feel its stinging pain.",
+      "target": "Bị nguyền rủa bởi người đội nó, bị dày vò bởi lớp vải rẻ tiền, ngứa ngáy, ai chạm vào chiếc mũ này cũng sẽ cảm nhận được sự đau nhức của nó."
+    },
+    {
+      "id": "language_10002129",
+      "source": "A furry, soft thing. It is said to bring good luck and allows you to fight on the front lines unharmed, but it's more likely that its cute and harmless appearance inspires compassion in the hearts of the enemy.",
+      "target": "Một thứ lông mềm mại. Nó được cho là mang lại May Mắn và cho phép bạn chiến đấu ở tiền tuyến mà không hề hấn gì, nhưng nhiều khả năng vẻ ngoài dễ thương và vô hại của nó sẽ khơi dậy lòng trắc ẩn trong lòng kẻ thù."
+    },
+    {
+      "id": "language_10002130",
+      "source": "A rusty iron \"bow\" with dents and scratches all over it. Maybe the person who skillfully twisted this strip of metal into this shape just wanted a nice red bow.",
+      "target": "Một chiếc “cung” bằng sắt rỉ sét với nhiều vết lõm và trầy xước khắp nơi. Có lẽ người khéo léo xoắn dải kim loại này thành hình dạng này chỉ muốn có một chiếc nơ đỏ thật đẹp."
+    },
+    {
+      "id": "language_10002131",
+      "source": "The most effective element of this thing is the leftover Critter fur inside—when rubbed against the wearer's hair, it produces an amazing amount of static electricity.",
+      "target": "Yếu tố hiệu quả nhất của thứ này là phần lông Critter còn sót lại bên trong—khi cọ xát vào tóc của người mặc, nó sẽ tạo ra một lượng tĩnh điện đáng kinh ngạc."
+    },
+    {
+      "id": "language_10002132",
+      "source": "Fishscale Glove",
+      "target": "Găng tay vảy cá"
+    },
+    {
+      "id": "language_10002133",
+      "source": "The most controversial accessory in the Screaming Tide series. Despite having a texture that feels like it is always soaked in water (a feature that most buyers find difficult to endure), it has gained widespread acclaim among arcanists of the water monster and sea beast bloodlines.",
+      "target": "Phụ kiện gây tranh cãi nhất trong series Screaming Tide. Mặc dù có kết cấu giống như luôn được ngâm trong nước (một đặc điểm mà hầu hết người mua cảm thấy khó chịu đựng), nó đã nhận được sự hoan nghênh rộng rãi trong giới thuật sĩ về dòng máu thủy quái và quái vật biển."
+    },
+    {
+      "id": "language_10002134",
+      "source": "Spur Mask",
+      "target": "Mặt nạ thúc đẩy"
+    },
+    {
+      "id": "language_10002135",
+      "source": "Don't be stingy with kindness—give your opponents a big smile! They're working so hard to stop you, but in vain...",
+      "target": "Đừng keo kiệt với lòng tốt—hãy mỉm cười thật tươi với đối thủ của bạn! Họ đang cố gắng hết sức để ngăn chặn bạn, nhưng vô ích..."
+    },
+    {
+      "id": "language_10002136",
+      "source": "Hunter's Belt",
+      "target": "Thắt lưng thợ săn"
+    },
+    {
+      "id": "language_10002137",
+      "source": "Part of the \"Law of the Jungle\" accessory series. This series is designed to reflect the notions of wildness, sensuality, and power, with each accessory embodying a different concept. This particular piece symbolizes \"Opportunity.\"",
+      "target": "Một phần của loạt phụ kiện \"Luật rừng\". Dòng sản phẩm này được thiết kế để phản ánh các khái niệm về sự Vùng Hoang Dã, gợi cảm và quyền lực, với mỗi phụ kiện thể hiện một khái niệm khác nhau. Phần đặc biệt này tượng trưng cho \"Cơ hội\"."
+    },
+    {
+      "id": "language_10002138",
+      "source": "Disk Folder",
+      "target": "Thư mục đĩa"
+    },
+    {
+      "id": "language_10002139",
+      "source": "A <nobr>custom-made</nobr> folder from Hungary, delicately designed and finely crafted. Surprisingly, it's not full of documents, but instead is loaded with various Ritual Disks that serve as a testament to the struggles of an arcanist who cannot use arcane skills.",
+      "target": "Một thư mục tùy chỉnh từ Hungary, được thiết kế và chế tác tinh xảo. Đáng ngạc nhiên là nó không chứa đầy tài liệu mà thay vào đó lại chứa nhiều Đĩa Nghi Lễ khác nhau, minh chứng cho cuộc đấu tranh của một nhà Huyền Thuật không thể sử dụng các kỹ năng bí ẩn."
+    },
+    {
+      "id": "language_10002140",
+      "source": "Morale Pipe",
+      "target": "ống tinh thần"
+    },
+    {
+      "id": "language_10002141",
+      "source": "Made in Denmark, when lit it creates a variety of pleasant and uplifting illusions. This piece no doubt has the power to generate a fiery fighting spirit among pipe owners.",
+      "target": "Được sản xuất tại Đan Mạch, khi được thắp sáng, nó tạo ra nhiều ảo ảnh dễ chịu và phấn chấn. Tác phẩm này chắc chắn có sức mạnh khơi dậy tinh thần chiến đấu nảy lửa giữa những người sở hữu tẩu thuốc."
+    },
+    {
+      "id": "language_10002142",
+      "source": "A quality choice for unlocking your potential and strengthening your resolve. Allergy sufferers should use with caution as excessive dust may cause adverse reactions such as incantations being interrupted by sneezing.",
+      "target": "Một sự lựa chọn chất lượng để khai phá tiềm năng và củng cố quyết tâm của bạn. Những người bị dị ứng nên thận trọng khi sử dụng vì quá nhiều bụi có thể gây ra phản ứng bất lợi như câu thần chú bị gián đoạn do hắt hơi."
+    },
+    {
+      "id": "language_10002143",
+      "source": "Spewing Pouch",
+      "target": "Túi phun"
+    },
+    {
+      "id": "language_10002144",
+      "source": "A pouch with a tendency to regurgitate whatever is stuffed into it. Maybe that is why this poor thing always seems to be hungry.",
+      "target": "Một cái túi có xu hướng trào ngược bất cứ thứ gì được nhét vào trong đó. Có lẽ vì thế mà sinh vật tội nghiệp này luôn có vẻ đói khát."
+    },
+    {
+      "id": "language_10002145",
+      "source": "Fish Glasses",
+      "target": "Kính cá"
+    },
+    {
+      "id": "language_10002146",
+      "source": "The work of a bored arcanist after eating a can of sardines. Because the fish heads completely block the wearer's vision, they provide the wearer with supreme confidence when facing strong enemies.",
+      "target": "Công việc của một nhà thuật toán buồn chán sau khi ăn một hộp cá mòi. Vì đầu cá chặn hoàn toàn tầm nhìn của người đeo nên chúng mang lại cho người đeo sự tự tin tối cao khi đối mặt với kẻ thù mạnh."
+    },
+    {
+      "id": "language_10002147",
+      "source": "Red and Green Dagger",
+      "target": "Dao găm đỏ và xanh"
+    },
+    {
+      "id": "language_10002148",
+      "source": "Dagger",
+      "target": "Dao găm"
+    },
+    {
+      "id": "language_10002149",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002150",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002151",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002152",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002153",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002154",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002155",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002156",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002157",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002158",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002159",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002160",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002161",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002162",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002163",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002164",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002165",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002166",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002167",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002168",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002169",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002170",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002171",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002172",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002173",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002174",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002175",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002176",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002177",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002178",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002179",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002180",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002181",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002182",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002183",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002184",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002185",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002186",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002187",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002188",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002189",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002190",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002191",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002192",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002193",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002194",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002195",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002196",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002197",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002198",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002199",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002200",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002201",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002202",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002203",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002204",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002205",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002206",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002207",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002208",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002209",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002210",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002211",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002212",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002213",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002214",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002215",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002216",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002217",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002218",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002219",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002220",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002221",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002222",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002223",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002224",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002225",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002226",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002227",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002228",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002229",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002230",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002231",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002232",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002233",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002234",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002235",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002236",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002237",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002238",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002239",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002240",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002241",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002242",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002243",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002244",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002245",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002246",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002247",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002248",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002249",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002250",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002251",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002252",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002253",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002254",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002255",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002256",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002257",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002258",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002259",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002260",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002261",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002262",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002263",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002264",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002265",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002266",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002267",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002268",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002269",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002270",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002271",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002272",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002273",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002274",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002275",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002276",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002277",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002278",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002279",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002280",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002281",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002282",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002283",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002284",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002285",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002286",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002287",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002288",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002289",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002290",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002291",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002292",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002293",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002294",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002295",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002296",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002297",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002298",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002299",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002300",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002301",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002302",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002303",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002304",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002305",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002306",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002307",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002308",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002309",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002310",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002311",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002312",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002313",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002314",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002315",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002316",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002317",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002318",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002319",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002320",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002321",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002322",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002323",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002324",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002325",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002326",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002327",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002328",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002329",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002330",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002331",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002332",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002333",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002334",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002335",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002336",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002337",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002338",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002339",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002340",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002341",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002342",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002343",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002344",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002345",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002346",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002347",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002348",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002349",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002350",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002351",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002352",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002353",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002354",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002355",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002356",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002357",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002358",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002359",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002360",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002361",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002362",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002363",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002364",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002365",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002366",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002367",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002368",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002369",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002370",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002371",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002372",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002373",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002374",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002375",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002376",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002377",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002378",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002379",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002380",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002381",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002382",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002383",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002384",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002385",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002386",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002387",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002388",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002389",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002390",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002391",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002392",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002393",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002394",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002395",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002396",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002397",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002398",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002399",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002400",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002401",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002402",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002403",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002404",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002405",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002406",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002407",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002408",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002409",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002410",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002411",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002412",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002413",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002414",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002415",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002416",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002417",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002418",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002419",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002420",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002421",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002422",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002423",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002424",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002425",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002426",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002427",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002428",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002429",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002430",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002431",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002432",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002433",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002434",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002435",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002436",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002437",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002438",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002439",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002440",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002441",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002442",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002443",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002444",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002445",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002446",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002447",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002448",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002449",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002450",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002451",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002452",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002453",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002454",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002455",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002456",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002457",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002458",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002459",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002460",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002461",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002462",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002463",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002464",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002465",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002466",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002467",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002468",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002469",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002470",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002471",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002472",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002473",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002474",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002475",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002476",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002477",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002478",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002479",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002480",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002481",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002482",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002483",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002484",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002485",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002486",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002487",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002488",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002489",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002490",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002491",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002492",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002493",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002494",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002495",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002496",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002497",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002498",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002499",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002500",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002501",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002502",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002503",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002504",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002505",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002506",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002507",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002508",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002509",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002510",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002511",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002512",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002513",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002514",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002515",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002516",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002517",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002518",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002519",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002520",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002521",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002522",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002523",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002524",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002525",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002526",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002527",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002528",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002529",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002530",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002531",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002532",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002533",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002534",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002535",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002536",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002537",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002538",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002539",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002540",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002541",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002542",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002543",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002544",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002545",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002546",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002547",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002548",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002549",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002550",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002551",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002552",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002553",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002554",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002555",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002556",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002557",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002558",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002559",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002560",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002561",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002562",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002563",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002564",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002565",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002566",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002567",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002568",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002569",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002570",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002571",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002572",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002573",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002574",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002575",
+      "source": "DNT",
+      "target": "DNT"
+    },
+    {
+      "id": "language_10002576",
+      "source": "All fire incantations gain DMG Dealt +10%.",
+      "target": "Tất cả các câu thần chú lửa đều nhận được DMG +10%."
+    },
+    {
+      "id": "language_10002577",
+      "source": "All fire incantations gain DMG Dealt +20%. After casting a fire incantation, grant +1 Moxie to a random ally.",
+      "target": "Tất cả các câu thần chú lửa đều nhận được DMG +20%. Sau khi niệm thần chú lửa, cấp +1 Moxie cho một đồng minh ngẫu nhiên."
+    },
+    {
+      "id": "language_10002578",
+      "source": "All fire incantations gain DMG Dealt +40%. After casting a fire incantation, grant Moxie +1 to 2 random allies.",
+      "target": "Tất cả các câu thần chú lửa đều nhận được DMG +40%. Sau khi niệm thần chú lửa, cấp cho Moxie +1 cho 2 đồng minh ngẫu nhiên."
+    },
+    {
+      "id": "language_10002579",
+      "source": "All fire incantations gain DMG Dealt +80%. After casting a fire incantation, grant Moxie +1 to all allies.",
+      "target": "Tất cả các câu thần chú lửa đều nhận được DMG +80%. Sau khi niệm thần chú lửa, cấp Moxie +1 cho tất cả đồng minh."
+    },
+    {
+      "id": "language_10002580",
+      "source": "All fire incantations gain DMG Dealt +160%. After casting a fire incantation, grant Moxie +5 to all allies.",
+      "target": "Tất cả các câu thần chú lửa đều nhận được DMG +160%. Sau khi niệm thần chú lửa, cấp Moxie +5 cho tất cả đồng minh."
+    },
+    {
+      "id": "language_10002581",
+      "source": "Is this phone really connected? It's me, boss.",
+      "target": "Điện thoại này có thực sự được kết nối không? Là tôi đây, sếp."
+    },
+    {
+      "id": "language_10002582",
+      "source": "Desert Flannel",
+      "target": "Vải nỉ sa mạc"
+    },
+    {
+      "id": "language_10002583",
+      "source": "Are you returning that box of fake tickets? Oh, it's already too late now.",
+      "target": "Bạn có trả lại hộp vé giả đó không? Ôi, bây giờ đã quá muộn rồi."
+    },
+    {
+      "id": "language_10002584",
+      "source": "Newsstand Owner",
+      "target": "Chủ sạp báo"
+    },
+    {
+      "id": "language_10002585",
+      "source": "Late? What, are they giving you a hard time?",
+      "target": "Muộn? Cái gì, họ đang làm khó cậu à?"
+    },
+    {
+      "id": "language_10002586",
+      "source": "You know what those gangbangers are like. It all started out so simple. I sold them some fake tickets, and they gave me some \"benefits.\"",
+      "target": "Bạn biết những kẻ tập thể đó như thế nào rồi đấy. Mọi chuyện bắt đầu thật đơn giản. Tôi đã bán cho họ một số vé giả và họ đã cho tôi một số \"lợi ích\"."
+    },
+    {
+      "id": "language_10002587",
+      "source": "They know you were the one who stole—who took that box of tickets and cost them a bunch of money.",
+      "target": "Họ biết bạn là người đã lấy trộm - người đã lấy hộp vé đó và khiến họ tốn rất nhiều tiền."
+    },
+    {
+      "id": "language_10002588",
+      "source": "I'm no mug—I wouldn't wait for them to come find trouble with me. I haven't even opened the stall these past few days. Best to lie low till things blow over.",
+      "target": "Tôi không phải là kẻ ngu ngốc - tôi sẽ không đợi họ đến tìm rắc rối với tôi. Mấy ngày nay tôi thậm chí còn không mở quầy hàng. Tốt nhất hãy nằm yên cho đến khi mọi chuyện kết thúc."
+    },
+    {
+      "id": "language_10002589",
+      "source": "As for that box of fake tickets, do whatever you want with it.",
+      "target": "Đối với hộp vé giả đó, bạn muốn làm gì thì làm."
+    },
+    {
+      "id": "language_10002590",
+      "source": "I actually came here to ask about those tickets...",
+      "target": "Thực ra tôi đến đây để hỏi về mấy cái vé đó..."
+    },
+    {
+      "id": "language_10002591",
+      "source": "Do you know who else they've got selling tickets for them?",
+      "target": "Bạn có biết ai khác đã bán vé cho họ không?"
+    },
+    {
+      "id": "language_10002592",
+      "source": "I want to scoop up all those fake tickets and make sure they don't end up in the hands of unsuspecting sports fans.",
+      "target": "Tôi muốn thu thập tất cả những chiếc vé giả đó và đảm bảo rằng chúng không rơi vào tay những người hâm mộ thể thao không nghi ngờ."
+    },
+    {
+      "id": "language_10002593",
+      "source": "So, are these Uluru Games really gonna happen? The last time I saw you, I remember you were busy figuring out how to make a clean break with that <nobr>rag-tag</nobr> squad.",
+      "target": "Vậy trò chơi Uluru này có thực sự diễn ra không? Lần cuối cùng tôi gặp bạn, tôi nhớ bạn đang bận tìm cách thoát khỏi đội hình rag-tag đó."
+    },
+    {
+      "id": "language_10002594",
+      "source": "That's not important anymore. You can't stay mad forever, right? I can't tell you too much about it—everything's still up in the air right now.",
+      "target": "Điều đó không còn quan trọng nữa. Bạn không thể giận mãi được, phải không? Tôi không thể nói với bạn quá nhiều về điều đó—hiện tại mọi thứ vẫn chưa rõ ràng."
+    },
+    {
+      "id": "language_10002595",
+      "source": "So, can you help me dig up some info? Do me this favor, and you might just be able to drag yourself out of the darkness and into the light for once.",
+      "target": "Vì vậy, bạn có thể giúp tôi khai thác một số thông tin? Hãy giúp tôi điều này và bạn có thể kéo mình ra khỏi bóng tối và bước ra ánh sáng một lần."
+    },
+    {
+      "id": "language_10002596",
+      "source": "Sure, I have my ways. I'll keep my ear to the ground and let you know what's going on with those fake tickets.",
+      "target": "Chắc chắn, tôi có cách của tôi. Tôi sẽ chú ý lắng nghe và cho bạn biết chuyện gì đang xảy ra với những tấm vé giả đó."
+    },
+    {
+      "id": "language_10002597",
+      "source": "Remember to let me know as soon as you hear anything. I'm gonna snatch up all of those tickets in one go before they hit the market!",
+      "target": "Hãy nhớ cho tôi biết ngay khi bạn nghe thấy bất cứ điều gì. Tôi sẽ chộp lấy tất cả số vé đó một lần trước khi chúng được tung ra thị trường!"
+    },
+    {
+      "id": "language_10002598",
+      "source": "END OF DIALOGUE",
+      "target": "KẾT THÚC ĐỐI THOẠI"
+    },
+    {
+      "id": "language_10002599",
+      "source": "Gran, have look at this fire! Look! I think it's talking... and it's floating!",
+      "target": "Bà ơi, hãy nhìn ngọn lửa này! Nhìn! Tôi nghĩ nó đang nói... và nó đang lơ lửng!"
+    },
+    {
+      "id": "language_10002600",
+      "source": "Boy",
+      "target": "Con trai"
+    },
+    {
+      "id": "language_10002601",
+      "source": "Is that... the Sacred Flame of Uluru? It's her! It's really her!",
+      "target": "Đó có phải là... Ngọn lửa thiêng của Uluru? Đó là cô ấy! Thực sự là cô ấy!"
+    },
+    {
+      "id": "language_10002602",
+      "source": "Old Lady",
+      "target": "Bà già"
+    },
+    {
+      "id": "language_10002603",
+      "source": "So the rumors are true—the Uluru Games really are back.",
+      "target": "Vậy là tin đồn là đúng—Trò chơi Uluru thực sự đã trở lại."
+    },
+    {
+      "id": "language_10002604",
+      "source": "Her? Uluru... Sacred Flame? What are you on about?!",
+      "target": "Cô ấy? Uluru... Ngọn lửa thiêng? Bạn đang nói về cái gì vậy?!"
+    },
+    {
+      "id": "language_10002605",
+      "source": "She must be even older than my grandmother, dear... She's the Sacred Flame of the Uluru Games.",
+      "target": "Bà ấy chắc hẳn còn lớn tuổi hơn cả bà tôi nữa, con yêu ạ... Bà ấy là Ngọn lửa thiêng của Đại hội thể thao Uluru."
+    },
+    {
+      "id": "language_10002606",
+      "source": "It was a grand event of the arcanists, held every year at the mystical Uluru Rocklands.",
+      "target": "Đó là một sự kiện lớn của những người theo đạo Arcanist, được tổ chức hàng năm tại Uluru Rocklands huyền bí."
+    },
+    {
+      "id": "language_10002607",
+      "source": "Did you go to the Uluru Games to watch the show, Grandma?",
+      "target": "Bà có đến Uluru Games để xem buổi biểu diễn không, bà?"
+    },
+    {
+      "id": "language_10002608",
+      "source": "Yes, I did. I'll remember it for the rest of my days. I still remember... the first time I watched the <nobr>torch-lighting</nobr> ceremony. Your old grandmother was about the same age you are now.",
+      "target": "Vâng, tôi đã làm vậy. Tôi sẽ nhớ nó suốt những ngày còn lại của mình. Tôi vẫn nhớ... lần đầu tiên tôi xem lễ thắp đuốc. Bà ngoại của bạn lúc đó cũng trạc tuổi bạn bây giờ."
+    },
+    {
+      "id": "language_10002609",
+      "source": "The entire stadium was packed with people. Once that torch was lit, the cheers and applause went on and on, and every last person in the audience felt like their heart was about to jump out of their chests.",
+      "target": "Toàn bộ sân vận động chật cứng người. Khi ngọn đuốc được thắp lên, tiếng reo hò và vỗ tay không ngừng vang lên, đến từng người cuối cùng trong khán giả đều cảm thấy tim mình như muốn nhảy ra khỏi lồng ngực."
+    },
+    {
+      "id": "language_10002610",
+      "source": "But one day, the games just stopped, and half a century passed in the blink of an eye. That war dragged the whole civilized world into a mire along with this flame.",
+      "target": "Nhưng một ngày nọ, trò chơi chỉ dừng lại và nửa thế kỷ trôi qua trong chớp mắt. Cuộc chiến đó đã kéo cả thế giới văn minh vào vũng bùn cùng với ngọn lửa này."
+    },
+    {
+      "id": "language_10002611",
+      "source": "Half a century? She was gone for that long? And now, she's back?!",
+      "target": "Nửa thế kỷ? Cô ấy đã đi lâu như vậy sao? Và bây giờ, cô ấy đã trở lại?!"
+    },
+    {
+      "id": "language_10002612",
+      "source": "It looks like the rumors were true. The Uluru Games really are back.",
+      "target": "Có vẻ như những tin đồn là sự thật. Trò chơi Uluru thực sự đã trở lại."
+    },
+    {
+      "id": "language_10002613",
+      "source": "Ezra, what's that you're looking at?",
+      "target": "Ezra, cậu đang nhìn cái gì thế?"
+    },
+    {
+      "id": "language_10002614",
+      "source": "Professor",
+      "target": "Giáo sư"
+    },
+    {
+      "id": "language_10002615",
+      "source": "Ah... Professor. This... I suppose this can be considered extracurricular reading material.",
+      "target": "À... Giáo sư. Cái này... tôi cho rằng đây có thể coi là tài liệu đọc ngoại khóa."
+    },
+    {
+      "id": "language_10002616",
+      "source": "Ezra",
+      "target": "Ezra"
+    },
+    {
+      "id": "language_10002617",
+      "source": "Dr. Crawford's \"Reincarnator Chronicles\" is quite an abstruse treatise. I thought you might find it a little hard to digest. Very impressive, Ezra.",
+      "target": "\"Biên niên sử tái sinh\" của Tiến sĩ Crawford là một chuyên luận khá sâu sắc. Tôi nghĩ bạn có thể thấy nó hơi khó tiêu hóa. Rất ấn tượng, Ezra."
+    },
+    {
+      "id": "language_10002618",
+      "source": "Indeed... It's a bit difficult to understand. I had to spend some time searching for information to help me get it all, but it's all very interesting, of course.",
+      "target": "Quả thực... Có chút khó hiểu. Tôi đã phải mất một thời gian tìm kiếm thông tin để có được tất cả, nhưng tất nhiên là tất cả đều rất thú vị."
+    },
+    {
+      "id": "language_10002619",
+      "source": "Administrator Sophie told me that this book was last borrowed three years ago.",
+      "target": "Quản trị viên Sophie nói với tôi rằng cuốn sách này được mượn lần cuối cách đây ba năm."
+    },
+    {
+      "id": "language_10002620",
+      "source": "Let me take a look at the lending records. Hah! This last borrower's name was David W— Huh? Professor, was it you?",
+      "target": "Để tôi xem qua hồ sơ cho vay. Ha! Tên người vay cuối cùng này là David W— Hả? Giáo sư, có phải là bạn không?"
+    },
+    {
+      "id": "language_10002621",
+      "source": "Haha! You should always read the works of your senior peers at the earliest opportunity.",
+      "target": "Haha! Bạn nên luôn đọc tác phẩm của các đồng nghiệp cấp cao của mình càng sớm càng tốt."
+    },
+    {
+      "id": "language_10002622",
+      "source": "Your senior peer, you say?",
+      "target": "Đồng nghiệp cao cấp của bạn, bạn nói gì?"
+    },
+    {
+      "id": "language_10002623",
+      "source": "I used to work in the same lab as Crawford, but our research was focused on very different fields.",
+      "target": "Tôi từng làm việc trong cùng phòng thí nghiệm với Crawford, nhưng nghiên cứu của chúng tôi tập trung vào những lĩnh vực rất khác nhau."
+    },
+    {
+      "id": "language_10002624",
+      "source": "I like dealing with plants, while he is obsessed with sociology and enjoys interacting with the people around him.",
+      "target": "Tôi thích làm việc với thực vật, trong khi anh ấy bị ám ảnh bởi xã hội học và thích tương tác với những người xung quanh."
+    },
+    {
+      "id": "language_10002625",
+      "source": "You really know him? Is he an arcanist?",
+      "target": "Bạn thực sự biết anh ấy? Anh ấy có phải là người theo thuyết Arcanist không?"
+    },
+    {
+      "id": "language_10002626",
+      "source": "An arcanist? No, he's human, no different from the two of us.",
+      "target": "Một nhà thuật toán? Không, anh ấy là con người, không khác gì hai chúng ta."
+    },
+    {
+      "id": "language_10002627",
+      "source": "Huh? Humans research reincarnators, too?",
+      "target": "Hả? Con người cũng nghiên cứu về người tái sinh?"
+    },
+    {
+      "id": "language_10002628",
+      "source": "Sorry, professor... What I mean is, reincarnators only crop up in arcanist bloodlines, don't they?",
+      "target": "Xin lỗi, giáo sư... Ý tôi là, những người tái sinh chỉ sinh ra trong dòng máu Huyền Thuật, phải không?"
+    },
+    {
+      "id": "language_10002629",
+      "source": "Ah, so that's what you're worried about. Ezra, all surgeons are grateful for Roentgen's discovery of <nobr>X-rays</nobr>, regardless of bloodline. When it comes to the many fields of science, there are no divisions that cannot be bridged.",
+      "target": "À, vậy đó chính là điều bạn đang lo lắng. Ezra, tất cả các bác sĩ phẫu thuật đều biết ơn việc Roentgen phát hiện ra tia X, bất kể huyết thống. Khi nói đến nhiều lĩnh vực khoa học, không có sự phân chia nào là không thể hàn gắn được."
+    },
+    {
+      "id": "language_10002630",
+      "source": "And for researchers, there exist no divisions between different fields of research that our love for knowledge cannot overcome.",
+      "target": "Và đối với các nhà nghiên cứu, không tồn tại sự phân chia giữa các lĩnh vực nghiên cứu khác nhau mà tình yêu tri thức của chúng ta không thể vượt qua."
+    },
+    {
+      "id": "language_10002631",
+      "source": "Do you mean I can also consider pursuing reincarnators as my own field of research?",
+      "target": "Ý bạn là tôi cũng có thể coi việc theo đuổi những người tái sinh là lĩnh vực nghiên cứu của riêng mình?"
+    },
+    {
+      "id": "language_10002632",
+      "source": "Just like your... peer?",
+      "target": "Giống như... bạn bè của bạn?"
+    },
+    {
+      "id": "language_10002633",
+      "source": "<nobr>M-My</nobr> dear friends! Erm... <nobr>H-Have</nobr> you read the latest issue of the Nagger...?",
+      "target": "M-của tôi các bạn thân mến! Ừm... H-Bạn đã đọc số mới nhất của Nagger chưa...?"
+    },
+    {
+      "id": "language_10002634",
+      "source": "aliEn T",
+      "target": "người ngoài hành tinh T"
+    },
+    {
+      "id": "language_10002635",
+      "source": "Of course. I'm always keen to see what lies those lowlifes will come up with next.",
+      "target": "Tất nhiên rồi. Tôi luôn muốn xem những lời nói dối tiếp theo mà lũ hạ đẳng đó sẽ nghĩ ra là gì."
+    },
+    {
+      "id": "language_10002636",
+      "source": "Yes, that's right! Lies! It's all lies!",
+      "target": "Vâng, đúng vậy! Nói dối! Tất cả chỉ là dối trá!"
+    },
+    {
+      "id": "language_10002637",
+      "source": "Look... Just look! Look at me, just like a frisbee—my floating <nobr>DUU-DUU</nobr>-BELL-BOO! Can you imagine this being the outfit of an alien spy?",
+      "target": "Nhìn... nhìn thôi! Hãy nhìn tôi kìa, giống như một chiếc đĩa bay—DUU-DUU-BELL-BOO đang lơ lửng của tôi! Bạn có thể tưởng tượng đây là trang phục của một điệp viên ngoài hành tinh không?"
+    },
+    {
+      "id": "language_10002638",
+      "source": "Please rest assured, Mr. aliEn T. We both are rotatable circular objects, so I am naturally inclined to believe what you say.",
+      "target": "Hãy yên tâm, ông aliEn T. Cả hai chúng ta đều là những vật hình tròn có thể xoay được nên tôi đương nhiên có xu hướng tin vào những gì bạn nói."
+    },
+    {
+      "id": "language_10002639",
+      "source": "Brimley",
+      "target": "Brimley"
+    },
+    {
+      "id": "language_10002640",
+      "source": "Actually... you can't say it's not suspicious at all.",
+      "target": "Thực ra... bạn không thể nói là nó không đáng nghi chút nào."
+    },
+    {
+      "id": "language_10002641",
+      "source": "Umm... Huh?!",
+      "target": "Ừm... Hả?!"
+    },
+    {
+      "id": "language_10002642",
+      "source": "Ah... But the Naggers, who's so confident about \"alien invaders\", isn't exactly the most reliable source.",
+      "target": "À... Nhưng Naggers, những người rất tự tin về \"những kẻ xâm lược ngoài hành tinh\", không hẳn là nguồn đáng tin cậy nhất."
+    },
+    {
+      "id": "language_10002643",
+      "source": "When will that rag publish something that even remotely resembles the truth? They also called me a prime example of young people today being crushed by the pressures of the housing crisis! What a load of crock!",
+      "target": "Khi nào thì tờ tạp chí đó sẽ xuất bản thứ gì đó thậm chí còn giống với sự thật? Họ còn gọi tôi là tấm gương điển hình về việc giới trẻ ngày nay đang bị đè bẹp bởi áp lực của cuộc khủng hoảng nhà ở! Thật là một đống sành!"
+    },
+    {
+      "id": "language_10002644",
+      "source": "Yeah... That's right! It's all a big conspiracy orchestrated by those stinky <nobr>sock-wearers</nobr> at the Aerial Survey Office... Another ridiculous footnote in an absurd battle of office politics!",
+      "target": "Ừ... Đúng rồi! Tất cả chỉ là một âm mưu lớn được dàn dựng bởi những kẻ mặc tất hôi hám tại Văn phòng Khảo sát Trên không... Một chú thích nực cười khác trong một trận chiến ngớ ngẩn của chính trị văn phòng!"
+    },
+    {
+      "id": "language_10002645",
+      "source": "I... I appreciate the fact that you trust me! Really!",
+      "target": "Tôi... tôi đánh giá cao việc bạn tin tưởng tôi! Thật sự!"
+    },
+    {
+      "id": "language_10002646",
+      "source": "Don't worry too much, my friend.",
+      "target": "Đừng lo lắng quá, bạn của tôi."
+    },
+    {
+      "id": "language_10002647",
+      "source": "No lie lasts forever. Everything has to come to an end at some point, and sometimes, we have to take care of the big problems before the little ones sort themselves out.",
+      "target": "Không có lời nói dối nào tồn tại mãi mãi. Mọi thứ đều phải kết thúc vào một lúc nào đó, và đôi khi, chúng ta phải giải quyết những vấn đề lớn trước khi những vấn đề nhỏ tự giải quyết."
+    },
+    {
+      "id": "language_10002648",
+      "source": "...!",
+      "target": "...!"
+    },
+    {
+      "id": "language_10002649",
+      "source": "Hmm... I never imagined a UFO would cause such an uproar. To be frank, I'm quite shocked by all this.",
+      "target": "Hmm... Tôi chưa bao giờ tưởng tượng UFO lại gây ra sự náo động như vậy. Thành thật mà nói, tôi khá sốc vì tất cả những điều này."
+    },
+    {
+      "id": "language_10002650",
+      "source": "Just lay low and it'll blow over in no time.",
+      "target": "Chỉ cần nằm xuống và nó sẽ thổi bay ngay lập tức."
+    },
+    {
+      "id": "language_10002651",
+      "source": "Dessie, my sweet pea. Your friends can never keep up with you on the track.",
+      "target": "Dessie, hạt đậu thân yêu của tôi. Bạn bè của bạn không bao giờ có thể theo kịp bạn trên đường đua."
+    },
+    {
+      "id": "language_10002652",
+      "source": "Grandma",
+      "target": "bà"
+    },
+    {
+      "id": "language_10002653",
+      "source": "They're all just too slow, Grandma. I can't just stop running and wait for them...",
+      "target": "Tất cả họ đều quá chậm, bà ạ. Tôi không thể ngừng chạy và chờ đợi họ..."
+    },
+    {
+      "id": "language_10002654",
+      "source": "Young Desert Flannel",
+      "target": "Flannel sa mạc trẻ"
+    },
+    {
+      "id": "language_10002655",
+      "source": "You're developing a lot faster than other children the same age as you, and your P.E. teacher says you might have what it takes to be a star of track and field one day.",
+      "target": "Bạn đang phát triển nhanh hơn rất nhiều so với những đứa trẻ khác cùng tuổi và P.E. giáo viên nói rằng một ngày nào đó bạn có thể có đủ tố chất để trở thành một ngôi sao điền kinh."
+    },
+    {
+      "id": "language_10002656",
+      "source": "Track and field? What's that?",
+      "target": "Điền kinh và lĩnh vực? Đó là cái gì vậy?"
+    },
+    {
+      "id": "language_10002657",
+      "source": "Well... it just means sports like running, jumping, and throwing things as far as you can.",
+      "target": "Chà... nó chỉ có nghĩa là các môn thể thao như chạy, nhảy và ném đồ vật xa nhất có thể."
+    },
+    {
+      "id": "language_10002658",
+      "source": "Won't I hit someone if I go around throwing things?",
+      "target": "Tôi sẽ không đánh ai đó nếu tôi đi loanh quanh ném đồ đạc chứ?"
+    },
+    {
+      "id": "language_10002659",
+      "source": "Hah! No you won't hit anyone. If you managed to do that, you'd become a track and field legend on the spot.",
+      "target": "Ha! Không, bạn sẽ không đánh ai cả. Nếu bạn làm được điều đó, bạn sẽ trở thành một huyền thoại điền kinh ngay tại chỗ."
+    },
+    {
+      "id": "language_10002660",
+      "source": "Hmm... It doesn't really sound like much of a challenge.",
+      "target": "Hmm... Nghe có vẻ không thực sự là một thử thách."
+    },
+    {
+      "id": "language_10002661",
+      "source": "You have many other options open to you. You can do anything, little bird.",
+      "target": "Bạn có nhiều lựa chọn khác mở ra cho bạn. Bạn có thể làm bất cứ điều gì, con chim nhỏ."
+    },
+    {
+      "id": "language_10002662",
+      "source": "You can be a poet or a painter. You can go be a singer.",
+      "target": "Bạn có thể là một nhà thơ hoặc một họa sĩ. Bạn có thể đi làm ca sĩ"
+    },
+    {
+      "id": "language_10002663",
+      "source": "There are countless choices for you to explore in life. If you truly understand the worth of your talents, you can also become an athlete.",
+      "target": "Có vô số sự lựa chọn để bạn khám phá trong cuộc sống. Nếu bạn thực sự hiểu giá trị tài năng của mình, bạn cũng có thể trở thành một vận động viên."
+    },
+    {
+      "id": "language_10002664",
+      "source": "When you walk along the wall, it's like you're flying—like gravity has no hold over you.",
+      "target": "Khi bạn đi dọc theo bức tường, bạn sẽ có cảm giác như đang bay—như trọng lực không còn tác dụng lên bạn nữa."
+    },
+    {
+      "id": "language_10002665",
+      "source": "Can Plappy be an athlete, too? It can run just as fast as me.",
+      "target": "Plappy cũng có thể là một vận động viên phải không? Nó có thể chạy nhanh như tôi."
+    },
+    {
+      "id": "language_10002666",
+      "source": "Hah! Then, my child, you should go up for a dressage competition. That way, you and Plappy will become unbeatable partners and work together to take home a gold medal.",
+      "target": "Ha! Thế thì, con ơi, con nên tham gia cuộc thi trang phục. Bằng cách đó, bạn và Plappy sẽ trở thành đối tác bất khả chiến bại và cùng nhau hợp tác để mang về huy chương vàng."
+    },
+    {
+      "id": "language_10002667",
+      "source": "Dressage?",
+      "target": "Trang phục?"
+    },
+    {
+      "id": "language_10002668",
+      "source": "Oh... Your grandma's getting senile in her old age. I forgot—that era ended long ago. Sporting competitions for arcanists have been missing from the world for a long time now.",
+      "target": "Ồ... Bà của bạn đang già đi. Tôi quên mất—thời đại đó đã kết thúc từ lâu rồi. Các cuộc thi thể thao dành cho các nhà cung thuật đã biến mất khỏi thế giới từ lâu."
+    },
+    {
+      "id": "language_10002669",
+      "source": "I don't know if we'll ever see the day the Uluru Games are held once again...",
+      "target": "Tôi không biết liệu chúng ta có còn được chứng kiến ​​ngày Thế vận hội Uluru được tổ chức lần nữa hay không..."
+    },
+    {
+      "id": "language_10002670",
+      "source": "Grandma, you're always there, in my mind.",
+      "target": "Bà ơi, bà luôn ở đó, trong tâm trí tôi."
+    },
+    {
+      "id": "language_10002671",
+      "source": "Please watch over me. The day we talked about is finally here.",
+      "target": "Xin hãy trông chừng tôi. Ngày chúng ta nói chuyện cuối cùng cũng đến."
+    },
+    {
+      "id": "language_10002672",
+      "source": "You were right. Plappy and I have become unbeatable partners.",
+      "target": "Bạn đã đúng. Plappy và tôi đã trở thành những đối tác không thể cạnh tranh được."
+    },
+    {
+      "id": "language_10002673",
+      "source": "Trembling Tooth",
+      "target": "Răng run"
+    },
+    {
+      "id": "language_10002674",
+      "source": "A tooth that won't stop chattering. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một chiếc răng không ngừng kêu. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002675",
+      "source": "Always take good care of it and use it immediately after it is opened. Don't be surprised by these little ones' speed when they flee: they were freaked out before running away from the gum.",
+      "target": "Hãy luôn bảo quản cẩn thận và sử dụng ngay sau khi mở ra. Đừng ngạc nhiên về tốc độ chạy trốn của những đứa trẻ này: chúng hoảng sợ trước khi chạy khỏi kẹo cao su."
+    },
+    {
+      "id": "language_10002676",
+      "source": "Liquefied Terror",
+      "target": "khủng bố hóa lỏng"
+    },
+    {
+      "id": "language_10002677",
+      "source": "A viscous fluid of moss green coloration with the smell of rotten mint. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một chất lỏng sền sệt màu xanh rêu có mùi bạc hà thối. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002678",
+      "source": "You trembled in your dreams and suddenly woke up with a scream. They were running across your skin. Made with cracked teeth, the liquefaction has improved its stability and shelf life. Tasting it is not recommended as it brings more than just nightmares.",
+      "target": "Bạn run rẩy trong giấc mơ và chợt tỉnh dậy với một tiếng hét. Chúng chạy khắp da bạn. Được làm từ những chiếc răng bị nứt, quá trình hóa lỏng đã cải thiện độ ổn định và thời hạn sử dụng của nó. Việc nếm thử nó không được khuyến khích vì nó mang lại nhiều điều hơn là những cơn ác mộng."
+    },
+    {
+      "id": "language_10002679",
+      "source": "Biting Box",
+      "target": "Hộp cắn"
+    },
+    {
+      "id": "language_10002680",
+      "source": "A strange, heavy box. People claim to have heard strange noises from it. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một chiếc hộp nặng và lạ. Người ta khẳng định đã nghe thấy những tiếng động lạ từ nó. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002681",
+      "source": "You won't be able to tell where it comes from, whom it belongs to or why it looks so strange. More importantly, you will never know what you have released.",
+      "target": "Bạn sẽ không thể biết nó đến từ đâu, nó thuộc về ai hay tại sao nó trông kỳ lạ đến vậy. Quan trọng hơn, bạn sẽ không bao giờ biết mình đã phát hành những gì."
+    },
+    {
+      "id": "language_10002682",
+      "source": "Bogeyman",
+      "target": "Ông Kẹ"
+    },
+    {
+      "id": "language_10002683",
+      "source": "\"Monster ... MOM! HELP! THERE'S A MONSTER UNDER MY BED!\" Used for Insight or Resonate rituals of characters.",
+      "target": "\"Quái vật ... MẸ! GIÚP ĐỠ! CÓ MỘT QUÁI VẬT DƯỚI GIƯỜNG CỦA CON!\" Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002684",
+      "source": "Your children are right about the Bogeyman. As a parent, you better keep an eye out for these wicked kidnappers. But they can be lucrative. Catch one and it might help pay the bills because we're buying them! Call <nobr>098-1937</nobr>**21 for details.",
+      "target": "Con bạn đã đúng về Bogeyman. Là cha mẹ, tốt nhất bạn nên để mắt đến những kẻ bắt cóc độc ác này. Nhưng chúng có thể sinh lời. Hãy bắt một con và nó có thể giúp thanh toán các hóa đơn vì chúng ta đang mua chúng! Gọi 098-1937**21 để biết thêm chi tiết."
+    },
+    {
+      "id": "language_10002685",
+      "source": "Magnesia Crystal",
+      "target": "Tinh thể magie"
+    },
+    {
+      "id": "language_10002686",
+      "source": "Unrefined magnesia salt. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Muối magie chưa tinh chế. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002687",
+      "source": "It's not quite useful in <nobr>high-level</nobr> rituals. The seller promised that the part that looks like a human face was but a coincidence created by nature.",
+      "target": "Nó không thực sự hữu ích trong các nghi lễ cấp cao. Người bán hứa rằng phần trông giống khuôn mặt con người chỉ là sự trùng hợp ngẫu nhiên do tạo hóa tạo ra."
+    },
+    {
+      "id": "language_10002688",
+      "source": "Milled Magnesia",
+      "target": "Magiê xay"
+    },
+    {
+      "id": "language_10002689",
+      "source": "Refined magnesia salt. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Muối magie tinh luyện. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002690",
+      "source": "Usable in exorcism and purification rites. It may not be important, but we can't do without it.",
+      "target": "Có thể sử dụng trong nghi thức trừ tà và thanh tẩy. Nó có thể không quan trọng, nhưng chúng ta không thể làm gì nếu không có nó."
+    },
+    {
+      "id": "language_10002691",
+      "source": "Salted Mandrake",
+      "target": "nhân sâm muối"
+    },
+    {
+      "id": "language_10002692",
+      "source": "A mandrake herb. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một loại thảo mộc nhân sâm. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002693",
+      "source": "A mandrake that does not scream? That must be the greatest thing in the history of Arcanum! Robert the Magnesia made a fortune with this and now lives in his very own manor.",
+      "target": "Một nhân sâm không hét lên? Đó hẳn là điều tuyệt vời nhất trong lịch sử của Arcanum! Robert the Magnesia đã kiếm bộn tiền nhờ việc này và hiện đang sống trong trang viên của riêng mình."
+    },
+    {
+      "id": "language_10002694",
+      "source": "Incorrupt Monkeypaw",
+      "target": "chân khỉ hư hỏng"
+    },
+    {
+      "id": "language_10002695",
+      "source": "An extremely rare material from Harappa. Used for Insight or Resonate rituals of characters.",
+      "target": "Một vật liệu cực kỳ quý hiếm từ Harappa. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002696",
+      "source": "A dried arm of a primate. Don't wish for anything from it, and that includes silent wishes as well.",
+      "target": "Một cánh tay khô của loài linh trưởng. Đừng mong ước bất cứ điều gì từ nó, và điều đó cũng bao gồm cả những mong muốn thầm lặng."
+    },
+    {
+      "id": "language_10002697",
+      "source": "Shattered Bones",
+      "target": "xương vỡ"
+    },
+    {
+      "id": "language_10002698",
+      "source": "A pile of broken bones. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một đống xương gãy. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002699",
+      "source": "Careful, this may be sharp. Of course, only fools will hurt themselves with this ... WHOA! Watch out!",
+      "target": "Hãy cẩn thận, điều này có thể sắc nét. Tất nhiên, chỉ có những kẻ ngốc mới làm tổn thương chính mình với điều này ... WHOA! Hãy coi chừng!"
+    },
+    {
+      "id": "language_10002700",
+      "source": "Esoteric Bones",
+      "target": "Xương bí truyền"
+    },
+    {
+      "id": "language_10002701",
+      "source": "A rather intact set of bones but the pieces are taken from different animals. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một bộ xương khá nguyên vẹn nhưng các mảnh được lấy từ các loài động vật khác nhau. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002702",
+      "source": "Though not as superior as a full skeleton, the femur, ribs, and pieces of the skull are the optimal solution you can afford.",
+      "target": "Mặc dù không vượt trội bằng bộ xương đầy đủ nhưng xương đùi, xương sườn và các mảnh hộp sọ là giải pháp tối ưu mà bạn có thể mua được."
+    },
+    {
+      "id": "language_10002703",
+      "source": "Bifurcated Skeleton",
+      "target": "Bộ xương hai nhánh"
+    },
+    {
+      "id": "language_10002704",
+      "source": "A skeleton with 2 skulls. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một bộ xương có 2 hộp sọ. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002705",
+      "source": "What did the humans say again? Oh, what a poor, deformed little thing! But guess what the arcanists say. Oh my, look at these sublime features only evident in the noblest of all blood lines!",
+      "target": "Con người đã nói gì nữa? Ôi, thật là một sinh vật nhỏ bé tội nghiệp và dị dạng! Nhưng hãy đoán xem những người theo chủ nghĩa Huyền Thuật nói gì. Ôi chao, hãy nhìn những đặc điểm siêu phàm này chỉ thấy rõ ở những dòng máu cao quý nhất!"
+    },
+    {
+      "id": "language_10002706",
+      "source": "Wyrmling Skeleton",
+      "target": "bộ xương bay lượn"
+    },
+    {
+      "id": "language_10002707",
+      "source": "Skeleton of the dragon. Used for Insight or Resonate rituals of characters.",
+      "target": "Bộ xương của rồng. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002708",
+      "source": "Dragons, the true cryptid. A living dragon commands majestic power, while a dead one is still a trove of riches.",
+      "target": "Rồng, mật mã thực sự. Một con rồng sống có sức mạnh hùng vĩ, trong khi một con rồng chết vẫn là một kho tàng của cải."
+    },
+    {
+      "id": "language_10002709",
+      "source": "Silver Ore",
+      "target": "Quặng bạc"
+    },
+    {
+      "id": "language_10002710",
+      "source": "Raw silver ore. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Quặng bạc thô. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002711",
+      "source": "Precious metal can be extracted from these ores. It is also a casting medium for some basic arcane skills.",
+      "target": "Kim loại quý có thể được chiết xuất từ ​​​​quặng này. Nó cũng là phương tiện thi triển một số kỹ năng phức tạp cơ bản."
+    },
+    {
+      "id": "language_10002712",
+      "source": "Rough Silver Ingot",
+      "target": "Thỏi bạc thô"
+    },
+    {
+      "id": "language_10002713",
+      "source": "A handcrafted silver ingot with a rough surface. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một thỏi bạc thủ công có bề mặt nhám. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002714",
+      "source": "A tad unrefined but still serviceable. Use it to cast arcane skills or buy a jar of jelly beans or cookies. The choice is yours.",
+      "target": "Một chút chưa tinh chế nhưng vẫn có thể sử dụng được. Sử dụng nó để thực hiện các kỹ năng phức tạp hoặc mua một lọ kẹo dẻo hoặc bánh quy. Sự lựa chọn là của bạn."
+    },
+    {
+      "id": "language_10002715",
+      "source": "Holy Silver",
+      "target": "Bạc thần thánh"
+    },
+    {
+      "id": "language_10002716",
+      "source": "Polished silver bullions. The consecration ritual makes them as brightly reflective as a mirror. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Những thỏi bạc được đánh bóng. Nghi thức phong thánh khiến chúng phản chiếu rực rỡ như một tấm gương. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002717",
+      "source": "Everybody loves a pretty bullion of silver. Being washed in holy water not only gave them a beauteous sheen, but also powerful arcane energy and exorcist properties.",
+      "target": "Mọi người đều yêu thích một thỏi bạc xinh đẹp. Được rửa trong nước thánh không chỉ mang lại cho chúng vẻ đẹp rực rỡ mà còn mang lại năng lượng bí ẩn mạnh mẽ và đặc tính trừ tà."
+    },
+    {
+      "id": "language_10002718",
+      "source": "Silver Bullet",
+      "target": "Viên đạn bạc"
+    },
+    {
+      "id": "language_10002719",
+      "source": "Patterned silver bullets that contain immense power. Used for Insight or Resonate rituals of characters.",
+      "target": "Những viên đạn bạc có hoa văn ẩn chứa sức mạnh to lớn. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002720",
+      "source": "It takes effort to make one, but it's definitely worth it. No matter if your target is a vampire or a werewolf, it will come in handy.",
+      "target": "Phải nỗ lực để tạo ra một cái, nhưng nó chắc chắn có giá trị. Bất kể mục tiêu của bạn là ma cà rồng hay người sói, nó sẽ có ích."
+    },
+    {
+      "id": "language_10002721",
+      "source": "Spell of Banishing",
+      "target": "Phép thuật xua đuổi"
+    },
+    {
+      "id": "language_10002722",
+      "source": "An enchanted broom. Comes with a manual of 100 Spells of Banishing. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một cây chổi đầy mê hoặc. Đi kèm với sách hướng dẫn sử dụng 100 Phép thuật Trục xuất. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002723",
+      "source": "It can take care of both thorough and daily cleaning. All it takes is a bit of money and your hands will be freed forever. What's more cheering than that?",
+      "target": "Nó có thể chăm sóc cả việc làm sạch kỹ lưỡng và hàng ngày. Tất cả chỉ cần một chút tiền và đôi tay của bạn sẽ được giải phóng mãi mãi. Còn gì đáng mừng hơn thế?"
+    },
+    {
+      "id": "language_10002724",
+      "source": "Spell of Fortune",
+      "target": "Phép thuật May Mắn"
+    },
+    {
+      "id": "language_10002725",
+      "source": "A rabbit's foot and a wrinkled piece of order paper. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một cái chân thỏ và một tờ giấy đặt hàng nhàu nát. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002726",
+      "source": "Nobody would have thought that this item is the secret to good luck. The story of its origin begins with Marianna who worked at a family diner ...",
+      "target": "Không ai có thể nghĩ rằng món đồ này chính là bí quyết May Mắn. Câu chuyện về nguồn gốc của nó bắt đầu với Marianna, người làm việc tại một quán ăn gia đình ..."
+    },
+    {
+      "id": "language_10002727",
+      "source": "Prophetic Bird",
+      "target": "Chim tiên tri"
+    },
+    {
+      "id": "language_10002728",
+      "source": "A glass bird that sings no songs. Keep away from heat and avoid mishandling. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một con chim thủy tinh không hót. Tránh xa nguồn nhiệt và tránh xử lý sai. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002729",
+      "source": "An arcanist's best friend! Let this little birdie remember your spells for you. With over 5241 practical spells in its memory bank, this is the <nobr>go-to</nobr> choice for busy arcanists!",
+      "target": "Người bạn tốt nhất của một nhà cung thuật! Hãy để chú chim nhỏ này ghi nhớ những câu thần chú của bạn cho bạn. Với hơn 5241 phép thuật thực tế trong ngân hàng bộ nhớ, đây là sự lựa chọn nên làm dành cho những người làm Nhà Huyền Thuật bận rộn!"
+    },
+    {
+      "id": "language_10002730",
+      "source": "Murmur of Insanity",
+      "target": "Thì thầm của sự điên rồ"
+    },
+    {
+      "id": "language_10002731",
+      "source": "The most dangerous and hazardous book to the best of your knowledge. Used for Insight or Resonate rituals of characters.",
+      "target": "Cuốn sách nguy hiểm và nguy hiểm nhất theo hiểu biết tốt nhất của bạn. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002732",
+      "source": "You will get to read the most hidden, forbidden and forgotten spells in history among the mad words of this book. He is the best tutor for all the ambitious villains. Just remember one thing: ask only, and never answer.",
+      "target": "Bạn sẽ được đọc những câu thần chú bị ẩn giấu, bị cấm và bị lãng quên nhất trong lịch sử trong số những từ ngữ điên rồ của cuốn sách này. Anh ta là gia sư giỏi nhất cho tất cả những kẻ phản diện đầy tham vọng. Chỉ cần nhớ một điều: chỉ hỏi và không bao giờ trả lời."
+    },
+    {
+      "id": "language_10002733",
+      "source": "Solidus",
+      "target": "chất rắn"
+    },
+    {
+      "id": "language_10002734",
+      "source": "An ancient coin. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một đồng tiền cổ. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002735",
+      "source": "Embark on a journey, or wait plainly.",
+      "target": "Bắt tay vào một cuộc hành trình, hoặc chờ đợi rõ ràng."
+    },
+    {
+      "id": "language_10002736",
+      "source": "Clawed Pendulum",
+      "target": "Con lắc có móng vuốt"
+    },
+    {
+      "id": "language_10002737",
+      "source": "An expensive pendulum. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một con lắc đắt tiền. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002738",
+      "source": "It shall lead your way.",
+      "target": "Nó sẽ dẫn đường cho bạn."
+    },
+    {
+      "id": "language_10002739",
+      "source": "Platinum Ouija",
+      "target": "Cầu cơ bạch kim"
+    },
+    {
+      "id": "language_10002740",
+      "source": "An ouija board used by the most legendary mediums. Used for Insight or Resonate rituals of characters. Also used as the material for crafting advanced materials.",
+      "target": "Một bảng cầu cơ được sử dụng bởi những phương tiện truyền thông huyền thoại nhất. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật. Cũng được sử dụng làm nguyên liệu để chế tạo các vật liệu tiên tiến."
+    },
+    {
+      "id": "language_10002741",
+      "source": "It shall purge things that lead you astray.",
+      "target": "Nó sẽ thanh lọc những thứ khiến bạn lạc lối."
+    },
+    {
+      "id": "language_10002742",
+      "source": "Fruit of Good and Evil",
+      "target": "Quả thiện và ác"
+    },
+    {
+      "id": "language_10002743",
+      "source": "But of the tree of the knowledge of good and evil, thou shalt not eat of it. Used for Insight or Resonate rituals of characters.",
+      "target": "Nhưng về cây biết điều thiện và điều ác thì ngươi không được ăn. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002744",
+      "source": "It is the rebel vanguard for the disobedient and those who seek knowledge.",
+      "target": "Nó là đội quân tiên phong nổi loạn dành cho những người không vâng lời và những người tìm kiếm kiến ​​thức."
+    },
+    {
+      "id": "language_10002745",
+      "source": "Mistilteinn",
+      "target": "cây tầm gửi"
+    },
+    {
+      "id": "language_10002746",
+      "source": "It never swore an oath. Used for Insight or Resonate rituals of characters.",
+      "target": "Nó chưa bao giờ thề thốt. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002747",
+      "source": "It is the edge for the weak, the silent, and the belittled.",
+      "target": "Đó là bờ vực dành cho những kẻ yếu đuối, im lặng và bị coi thường."
+    },
+    {
+      "id": "language_10002748",
+      "source": "Golden Fleece",
+      "target": "Lông cừu vàng"
+    },
+    {
+      "id": "language_10002749",
+      "source": "Thousands died in the sea seeking it. Used for Insight or Resonate rituals of characters.",
+      "target": "Hàng ngàn người đã chết trên biển để tìm kiếm nó. Được sử dụng cho các nghi lễ Insight hoặc Resonate của nhân vật."
+    },
+    {
+      "id": "language_10002750",
+      "source": "It is a reward for the adventurous and the bravest souls.",
+      "target": "Đó là phần thưởng dành cho những tâm hồn phiêu lưu và dũng cảm nhất."
+    },
+    {
+      "id": "language_10002751",
+      "source": "Page of Mineral Wealth",
+      "target": "Trang giàu có khoáng sản"
+    },
+    {
+      "id": "language_10002752",
+      "source": "A tattered page. Used for the ritual of Mineral Insight I.",
+      "target": "Một trang rách nát. Được sử dụng cho nghi thức Mineral Insight I."
+    },
+    {
+      "id": "language_10002753",
+      "source": "They are buried deep under the mountain rocks where a gem is indistinguishable from bits of coal.",
+      "target": "Chúng được chôn sâu dưới những tảng đá trên núi, nơi không thể phân biệt được đá quý với những mảnh than."
+    },
+    {
+      "id": "language_10002754",
+      "source": "Scroll of Mineral Wealth",
+      "target": "Cuộn của cải khoáng sản"
+    },
+    {
+      "id": "language_10002755",
+      "source": "Incomplete scrolls. Used for the ritual of Mineral Insight II.",
+      "target": "Những cuộn giấy chưa hoàn chỉnh. Được sử dụng cho nghi thức Mineral Insight II."
+    },
+    {
+      "id": "language_10002756",
+      "source": "The rock spits on those with a weak mind. It is the code between instant and eternity.",
+      "target": "Đá nhổ vào những người có tâm trí yếu đuối. Đó là mật mã giữa tức thời và vĩnh cửu."
+    },
+    {
+      "id": "language_10002757",
+      "source": "Tome of Mineral Wealth",
+      "target": "Sách của cải khoáng sản"
+    },
+    {
+      "id": "language_10002758",
+      "source": "A heavy tome. Used for the ritual of Mineral Insight III.",
+      "target": "Một cuốn sách nặng nề. Được sử dụng cho nghi thức Mineral Insight III."
+    },
+    {
+      "id": "language_10002759",
+      "source": "A titan's child that emerged from a weeping wound of the Earth vein. It is a steadfast guardian and an indestructible friend. Even the nobles would bow before this sonorous herald.",
+      "target": "Đứa con của một titan xuất hiện từ vết thương đang rỉ nước của mạch Trái đất. Nó là người bảo vệ kiên định và là người bạn không thể phá hủy. Ngay cả những người quý tộc cũng phải cúi đầu trước sứ giả vĩ đại này."
+    },
+    {
+      "id": "language_10002760",
+      "source": "Page of Starlit Ascent",
+      "target": "Trang của Starlit Ascent"
+    },
+    {
+      "id": "language_10002761",
+      "source": "A tattered page. Used for the ritual of Star Insight I.",
+      "target": "Một trang rách nát. Được sử dụng cho nghi lễ Star Insight I."
+    },
+    {
+      "id": "language_10002762",
+      "source": "Neither the moon nor the sun could rob it of its colors.",
+      "target": "Cả mặt trăng lẫn mặt trời đều không thể cướp đi màu sắc của nó."
+    },
+    {
+      "id": "language_10002763",
+      "source": "Scroll of Starlit Ascent",
+      "target": "Cuộn giấy bay lên vì sao"
+    },
+    {
+      "id": "language_10002764",
+      "source": "Incomplete scrolls. Used for the ritual of Star Insight II.",
+      "target": "Những cuộn giấy chưa hoàn chỉnh. Được sử dụng cho nghi lễ Star Insight II."
+    },
+    {
+      "id": "language_10002765",
+      "source": "It breeds infants and helps them sleep in peace. It is a friend of lengthy nights and fantasies.",
+      "target": "Nó nuôi dưỡng trẻ sơ sinh và giúp chúng ngủ yên. Đó là người bạn của những đêm dài và những tưởng tượng."
+    },
+    {
+      "id": "language_10002766",
+      "source": "Tome of Starlit Ascent",
+      "target": "Cuốn sách về Starlit Ascent"
+    },
+    {
+      "id": "language_10002767",
+      "source": "A heavy tome. Used for the ritual of Star Insight III.",
+      "target": "Một cuốn sách nặng nề. Được sử dụng cho nghi lễ Star Insight III."
+    },
+    {
+      "id": "language_10002768",
+      "source": "An omen, a filthy secret, or an act of absolute vileness. You can also treat it as a handful of broken glass on black satin.",
+      "target": "Một điềm báo, một bí mật bẩn thỉu hoặc một hành động cực kỳ hèn hạ. Bạn cũng có thể coi nó như một nắm kính vỡ trên sa tanh đen."
+    },
+    {
+      "id": "language_10002769",
+      "source": "Page of Plantal Vimen",
+      "target": "Trang của Plantal Vimen"
+    },
+    {
+      "id": "language_10002770",
+      "source": "A tattered page. Used for the ritual of Plant Insight I.",
+      "target": "Một trang rách nát. Được sử dụng cho nghi lễ Plant Insight I."
+    },
+    {
+      "id": "language_10002771",
+      "source": "To reach the skies, its roots grow deep into the earth to extract nourishments from decomposed life.",
+      "target": "Để vươn tới bầu trời, rễ của nó mọc sâu vào lòng đất để hút chất dinh dưỡng từ sự sống đã phân hủy."
+    },
+    {
+      "id": "language_10002772",
+      "source": "Scroll of Plantal Vimen",
+      "target": "Cuộn Plantal Vimen"
+    },
+    {
+      "id": "language_10002773",
+      "source": "Incomplete scrolls. Used for the ritual of Plant Insight II.",
+      "target": "Những cuộn giấy chưa hoàn chỉnh. Được sử dụng cho nghi lễ Plant Insight II."
+    },
+    {
+      "id": "language_10002774",
+      "source": "It shall keep growing till it smothers the entire sky, till it chokes every single space, till the deep green tide blankets everything in sight.",
+      "target": "Nó sẽ tiếp tục phát triển cho đến khi nhấn chìm toàn bộ bầu trời, cho đến khi bóp nghẹt mọi không gian, cho đến khi làn thủy triều xanh thẳm bao phủ mọi thứ trong tầm mắt."
+    },
+    {
+      "id": "language_10002775",
+      "source": "Tome of Plantal Vimen",
+      "target": "Cuốn sách của Plantal Vimen"
+    },
+    {
+      "id": "language_10002776",
+      "source": "A heavy tome. Used for the ritual of Plant Insight III.",
+      "target": "Một cuốn sách nặng nề. Được sử dụng cho nghi thức Plant Insight III."
+    },
+    {
+      "id": "language_10002777",
+      "source": "It is the source of every twig in the deep woods, every strand of moss and floating weed and the mother of every tree. All of them know you.",
+      "target": "Nó là cội nguồn của từng cành cây trong rừng sâu, từng sợi rêu, từng đám cỏ dại trôi nổi và là mẹ của mọi cây cối. Tất cả họ đều biết bạn."
+    },
+    {
+      "id": "language_10002778",
+      "source": "Page of Beastly Thirst",
+      "target": "Trang của cơn khát mãnh liệt"
+    },
+    {
+      "id": "language_10002779",
+      "source": "A tattered page. Used for the ritual of Beast Insight I.",
+      "target": "Một trang rách nát. Được sử dụng cho nghi thức Beast Insight I."
+    },
+    {
+      "id": "language_10002780",
+      "source": "They wept and they cried. They lived and they died.",
+      "target": "Họ khóc và họ khóc. Họ đã sống và họ đã chết."
+    },
+    {
+      "id": "language_10002781",
+      "source": "Scroll of Beastly Thirst",
+      "target": "Cuộn giấy khát khao dã thú"
+    },
+    {
+      "id": "language_10002782",
+      "source": "Incomplete scrolls. Used for the ritual of Beast Insight II.",
+      "target": "Những cuộn giấy chưa hoàn chỉnh. Được sử dụng cho nghi lễ Beast Insight II."
+    },
+    {
+      "id": "language_10002783",
+      "source": "They walked in the barrens, resting in the day and rising in the night.",
+      "target": "Họ bước đi trong vùng đất cằn cỗi, ban ngày nghỉ ngơi và thức dậy vào ban đêm."
+    },
+    {
+      "id": "language_10002784",
+      "source": "Tome of Beastly Thirst",
+      "target": "Truyện cơn khát dã thú"
+    },
+    {
+      "id": "language_10002785",
+      "source": "A heavy tome. Used for the ritual of Beast Insight III.",
+      "target": "Một cuốn sách nặng nề. Được sử dụng cho nghi lễ Beast Insight III."
+    },
+    {
+      "id": "language_10002786",
+      "source": "Their every breath feels like that of their mother's mother and their father's father. They see what the mortals see.",
+      "target": "Mỗi hơi thở của các em đều giống như hơi thở của mẹ, của bố. Họ nhìn thấy những gì người phàm nhìn thấy."
+    },
+    {
+      "id": "language_10002787",
+      "source": "Sinuous Howl",
+      "target": "tiếng hú tội lỗi"
+    },
+    {
+      "id": "language_10002788",
+      "source": "A hardly noticeable sinuous howl. Mostly seen in the important resonate rituals. A material for leveling up Character Resonance.",
+      "target": "Một tiếng hú quanh co khó nhận thấy. Chủ yếu được nhìn thấy trong các nghi lễ cộng hưởng quan trọng. Một nguyên liệu để thăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002789",
+      "source": "When the dappled shade of the tree falls on the ground, when the dried branch cracks under your feet, when the birds are scared away by the sinuous howl, you find it there.",
+      "target": "Khi bóng cây lốm đốm rơi xuống đất, khi cành khô nứt dưới chân bạn, khi lũ chim sợ hãi vì tiếng hú quanh co, bạn sẽ tìm thấy nó ở đó."
+    },
+    {
+      "id": "language_10002790",
+      "source": "Interlaced Shudder",
+      "target": "Rùng mình xen kẽ"
+    },
+    {
+      "id": "language_10002791",
+      "source": "A hardly noticeable shudder interlaced like teeth. Mostly seen in the important resonate rituals. A material for leveling up Character Resonance.",
+      "target": "Một cơn rùng mình khó nhận thấy đan xen như những chiếc răng. Chủ yếu được nhìn thấy trong các nghi lễ cộng hưởng quan trọng. Một nguyên liệu để thăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002792",
+      "source": "When the suspension bridge is crumbling between the cliffs, when the man with tingling ears is walking on a wire, when the interlaced shudders cannot be stopped, you find it there.",
+      "target": "Khi cây cầu treo sụp đổ giữa những vách đá, khi người đàn ông ù tai đi trên dây, khi những cơn rùng mình đan xen không thể dừng lại, bạn sẽ tìm thấy nó ở đó."
+    },
+    {
+      "id": "language_10002793",
+      "source": "Hypocritical Murmur",
+      "target": "Lời thì thầm đạo đức giả"
+    },
+    {
+      "id": "language_10002794",
+      "source": "A hardly noticeable indistinguishable murmur. Mostly seen in the important resonate rituals. A material for leveling up Character Resonance.",
+      "target": "Một tiếng thì thầm không thể phân biệt được. Chủ yếu được nhìn thấy trong các nghi lễ cộng hưởng quan trọng. Một nguyên liệu để thăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002795",
+      "source": "When the traveler stands at a deserted fork, when the hurricane takes the sand away, when the hypocritical murmur is haunting the skull, you find it there.",
+      "target": "Khi lữ khách đứng ở một ngã ba vắng vẻ, khi cơn bão cuốn cát đi, khi tiếng thì thầm đạo đức giả ám ảnh đầu lâu, bạn sẽ tìm thấy nó ở đó."
+    },
+    {
+      "id": "language_10002796",
+      "source": "Hoarse Echo",
+      "target": "Tiếng vang khàn"
+    },
+    {
+      "id": "language_10002797",
+      "source": "A hardly noticeable weak echo. Mostly seen in the important resonate rituals. A material for leveling up Character Resonance.",
+      "target": "Một tiếng vang yếu khó nhận thấy. Chủ yếu được nhìn thấy trong các nghi lễ cộng hưởng quan trọng. Một nguyên liệu để thăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002798",
+      "source": "When tears are shed and eyes are closed at midnight, when a sigh cannot be ignored in one's solitude, when the hoarse echo sinks into the deep sea, you find it there.",
+      "target": "Khi nước mắt rơi và đôi mắt nhắm lại lúc nửa đêm, khi tiếng thở dài không thể bỏ qua trong nỗi cô đơn, khi tiếng vọng khàn khàn chìm xuống biển sâu, bạn tìm thấy nó ở đó."
+    },
+    {
+      "id": "language_10002799",
+      "source": "Moment of Dissonance",
+      "target": "Khoảnh khắc bất hòa"
+    },
+    {
+      "id": "language_10002800",
+      "source": "An obvious sign of restlessness. A material for leveling up Character Resonance.",
+      "target": "Một dấu hiệu rõ ràng của sự bồn chồn. Một nguyên liệu để thăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002801",
+      "source": "In your drenched dreams, in the shadowed paths you strolled alone, at the moment sudden restlessness shivers up your spine, you find it there.",
+      "target": "Trong những giấc mơ ướt đẫm, trên những con đường tối tăm bạn dạo bước một mình, vào lúc cảm giác bất an chợt rùng mình sống lưng, bạn tìm thấy nó ở đó."
+    },
+    {
+      "id": "language_10002802",
+      "source": "Brief Cacophony",
+      "target": "Bản giao hưởng ngắn gọn"
+    },
+    {
+      "id": "language_10002803",
+      "source": "A cacophony that follows you like a shadow. A material for leveling up Character Resonance.",
+      "target": "Một bản giao hưởng theo bạn như một cái bóng. Một nguyên liệu để thăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002804",
+      "source": "Over the bonfire that burns moths into charred ash, in the ephemeral silence among the cheers of the crowd, through the brief cacophony that stores within the embrace, you find it there.",
+      "target": "Trong đống lửa thiêu đốt bướm đêm thành tro cháy, trong sự im lặng phù du giữa tiếng reo hò của đám đông, qua bản giao hưởng ngắn ngủi đọng lại trong vòng tay, bạn tìm thấy nó ở đó."
+    },
+    {
+      "id": "language_10002805",
+      "source": "Sonorous Knell",
+      "target": "Tiếng chuông vang vọng"
+    },
+    {
+      "id": "language_10002806",
+      "source": "An unending vibration. A material for leveling up Character Resonance.",
+      "target": "Một sự rung động không ngừng. Một nguyên liệu để thăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002807",
+      "source": "On the stalker that has been tailing you, on the strange face that greets you on the other side of the mirror, in the sonorous knell that sends deafening reverberations, you find it there.",
+      "target": "Trên kẻ theo dõi đang theo đuôi bạn, trên khuôn mặt xa lạ chào đón bạn ở phía bên kia tấm gương, trong tiếng chuông vang dội gửi đến những âm vang chói tai, bạn sẽ tìm thấy nó ở đó."
+    },
+    {
+      "id": "language_10002808",
+      "source": "Artifice of Druvis III",
+      "target": "Tác phẩm của Druvis III"
+    },
+    {
+      "id": "language_10002809",
+      "source": "Both familiar and unknown faces can be seen on those black negatives. Used for character Portrait.",
+      "target": "Có thể nhìn thấy cả những khuôn mặt quen thuộc và chưa biết trên những tấm phim âm bản đen đó. Dùng cho chân dung nhân vật."
+    },
+    {
+      "id": "language_10002810",
+      "source": "The crescent and the oak tree taught her how to listen to everything in the woods.",
+      "target": "Cây lưỡi liềm và cây sồi dạy cô cách lắng nghe mọi thứ trong rừng."
+    },
+    {
+      "id": "language_10002811",
+      "source": "Artifice of Lilya",
+      "target": "Tác phẩm của Lilya"
+    },
+    {
+      "id": "language_10002812",
+      "source": "The witch above the Barents Sea sends you her regards. She's not into slow tours.",
+      "target": "Phù thủy phía trên Biển Barents gửi lời chào đến bạn. Cô ấy không tham gia những chuyến du lịch chậm rãi."
+    },
+    {
+      "id": "language_10002813",
+      "source": "Artifice of Nick Bottom",
+      "target": "Tác phẩm của Nick Bottom"
+    },
+    {
+      "id": "language_10002814",
+      "source": "Someone is always willing to be fooled and wear that ridiculous ass head. How moving and touching! His love is even deeper than the sea.",
+      "target": "Có người luôn sẵn sàng bị lừa và đeo cái đầu lố bịch đó. Thật cảm động và cảm động! Tình yêu của anh còn sâu hơn cả biển cả."
+    },
+    {
+      "id": "language_10002815",
+      "source": "Artifice of Eagle",
+      "target": "Tuyệt phẩm của đại bàng"
+    },
+    {
+      "id": "language_10002816",
+      "source": "One day she'll realize that being herself is already enough for her to soar in the skies.",
+      "target": "Một ngày nào đó cô ấy sẽ nhận ra rằng chỉ cần là chính mình cũng đủ để cô ấy có thể bay cao trên bầu trời."
+    },
+    {
+      "id": "language_10002817",
+      "source": "Artifice of A Knight",
+      "target": "Tác phẩm của một hiệp sĩ"
+    },
+    {
+      "id": "language_10002818",
+      "source": "Justice, mercy, and glory. He has already taken these codes to heart.",
+      "target": "Công lý, lòng thương xót và vinh quang. Anh ấy đã ghi nhớ những mật mã này rồi."
+    },
+    {
+      "id": "language_10002819",
+      "source": "Artifice of Sotheby",
+      "target": "Đồ tạo tác của Sotheby"
+    },
+    {
+      "id": "language_10002820",
+      "source": "Books are not the only source of knowledge which one can learn from. She still has a long, long way to go.",
+      "target": "Sách không phải là nguồn kiến ​​thức duy nhất mà người ta có thể học được. Cô ấy vẫn còn một chặng đường dài để đi."
+    },
+    {
+      "id": "language_10002821",
+      "source": "Artifice of X",
+      "target": "Tác phẩm của X"
+    },
+    {
+      "id": "language_10002822",
+      "source": "Sometimes, he has to shed some blood for the sake of others. Fortunately, he has machines to do that for him.",
+      "target": "Đôi khi, anh phải đổ máu vì người khác. May Mắn thay, anh ấy có máy móc để làm việc đó cho mình."
+    },
+    {
+      "id": "language_10002823",
+      "source": "Artifice of Sweetheart",
+      "target": "Tác phẩm của người yêu"
+    },
+    {
+      "id": "language_10002824",
+      "source": "Hush, listen closely. This is an insignificant little secret.",
+      "target": "Im đi, nghe kỹ đây. Đây là một bí mật nhỏ không đáng kể."
+    },
+    {
+      "id": "language_10002825",
+      "source": "Artifice of the Fool",
+      "target": "Tác phẩm của kẻ ngốc"
+    },
+    {
+      "id": "language_10002826",
+      "source": "The fool on stage knows that nobody needs a clown in this time.",
+      "target": "Kẻ ngốc trên sân khấu biết rằng thời điểm này không ai cần một chú hề."
+    },
+    {
+      "id": "language_10002827",
+      "source": "Artifice of Зима",
+      "target": "Artifice của Зима"
+    },
+    {
+      "id": "language_10002828",
+      "source": "The poet and his animal friends lead a carefree life on a desolate island beyond the sweeping tundras of Siberia.",
+      "target": "Nhà thơ và những người bạn động vật của mình có một cuộc sống vô tư trên một hòn đảo hoang vắng nằm ngoài vùng lãnh nguyên rộng lớn của Siberia."
+    },
+    {
+      "id": "language_10002829",
+      "source": "Artifice of Bunny Bunny",
+      "target": "Tác phẩm của Bunny Bunny"
+    },
+    {
+      "id": "language_10002830",
+      "source": "Leaving home, bidding farewell to her family, and remembering the tastes and prices of 143 types of wine have never been easy, but she's always laboring away.",
+      "target": "Xa nhà, từ biệt gia đình, nhớ mùi vị và giá cả của 143 loại rượu chưa bao giờ là điều dễ dàng nhưng cô vẫn luôn miệt mài."
+    },
+    {
+      "id": "language_10002831",
+      "source": "Artifice of Pavia",
+      "target": "Đồ tạo tác của Pavia"
+    },
+    {
+      "id": "language_10002832",
+      "source": "This is his best friend, his closest kin, his blood, his curse, and his life.",
+      "target": "Đây là người bạn tốt nhất của anh ấy, người thân nhất của anh ấy, dòng máu của anh ấy, lời nguyền của anh ấy và cuộc sống của anh ấy."
+    },
+    {
+      "id": "language_10002833",
+      "source": "Artifice of Baby Blue",
+      "target": "Tác phẩm của Baby Blue"
+    },
+    {
+      "id": "language_10002834",
+      "source": "Beth left. Angelina left. Tommy left. Even that Alice left. But don't worry. She'll stay here.",
+      "target": "Beth đã rời đi. Angelina rời đi. Tommy đã rời đi. Ngay cả Alice cũng đã rời đi. Nhưng đừng lo lắng. Cô ấy sẽ ở lại đây."
+    },
+    {
+      "id": "language_10002835",
+      "source": "Artifice of Charlie",
+      "target": "Tác phẩm của Charlie"
+    },
+    {
+      "id": "language_10002836",
+      "source": "A challenger of authority and fate. Though she's skilled in playing a tyrant's role, she acts in the way of a benevolent ruler.",
+      "target": "Một kẻ thách thức quyền lực và số phận. Mặc dù có kỹ năng đóng vai bạo chúa nhưng cô lại hành động theo cách của một người cai trị nhân từ."
+    },
+    {
+      "id": "language_10002837",
+      "source": "Artifice of Oliver Fog",
+      "target": "Tác phẩm của Oliver Fog"
+    },
+    {
+      "id": "language_10002838",
+      "source": "Just like the fog of London, there is no end to duty. The heavy hat still stands and the routine work never halts.",
+      "target": "Giống như sương mù ở London, nhiệm vụ không bao giờ kết thúc. Chiếc mũ nặng nề vẫn đứng vững và công việc thường ngày không bao giờ dừng lại."
+    },
+    {
+      "id": "language_10002839",
+      "source": "Artifice of Bkornblume",
+      "target": "Đồ tạo tác của Bkornblume"
+    },
+    {
+      "id": "language_10002840",
+      "source": "Like a vile gossiper she listened to secrets. Like a dreamer with hope she listened to the beautiful things of this world.",
+      "target": "Giống như một kẻ ngồi lê đôi mách hèn hạ, cô ấy lắng nghe những bí mật. Giống như một người mơ mộng với hy vọng, cô lắng nghe những điều tươi đẹp của thế giới này."
+    },
+    {
+      "id": "language_10002841",
+      "source": "Artifice of Dikke",
+      "target": "Đồ tạo tác của Dikke"
+    },
+    {
+      "id": "language_10002842",
+      "source": "Every transgressor of justice shall face justice's verdict.",
+      "target": "Mọi kẻ vi phạm công lý đều phải đối mặt với phán quyết của công lý."
+    },
+    {
+      "id": "language_10002843",
+      "source": "Artifice of Sonetto",
+      "target": "Tác phẩm của Sonetto"
+    },
+    {
+      "id": "language_10002844",
+      "source": "She had recited countless poems in silence, yet none of the authors could give her the answer she wanted.",
+      "target": "Cô đã ngâm vô số bài thơ trong im lặng, nhưng không một tác giả nào có thể cho cô câu trả lời như cô mong muốn."
+    },
+    {
+      "id": "language_10002845",
+      "source": "Artifice of Balloon Party",
+      "target": "Bữa tiệc khinh khí cầu"
+    },
+    {
+      "id": "language_10002846",
+      "source": "She gives out balloons and attends parties. \"Greetings to you! Hi there! Salutations!\" she would say.",
+      "target": "Cô ấy phát bóng bay và tham dự các bữa tiệc. \"Xin chào bạn! Xin chào! Xin chào!\" cô ấy sẽ nói."
+    },
+    {
+      "id": "language_10002847",
+      "source": "Artifice of Regulus",
+      "target": "Tạo tác của Regulus"
+    },
+    {
+      "id": "language_10002848",
+      "source": "The beam will be transmitted via the arc. Where does it end? Well, rock and roll never ends.",
+      "target": "Chùm tia sẽ được truyền qua vòng cung. Nó kết thúc ở đâu? Vâng, rock and roll không bao giờ kết thúc."
+    },
+    {
+      "id": "language_10002849",
+      "source": "Artifice of Mondlicht",
+      "target": "Đồ tạo tác của Mondlicht"
+    },
+    {
+      "id": "language_10002850",
+      "source": "Blood will have blood. Bestial claws tore the old moon to pieces as the mothers wept tears that flowed like rivers.",
+      "target": "Máu sẽ có máu. Móng vuốt dã thú xé nát vầng trăng già, mẹ khóc nước mắt tuôn như sông."
+    },
+    {
+      "id": "language_10002851",
+      "source": "Artifice of Ms. Radio",
+      "target": "Nghệ thuật của Cô Radio"
+    },
+    {
+      "id": "language_10002852",
+      "source": "Welcome to radio news! We have everything you want to know right here on this channel!",
+      "target": "Chào mừng đến với tin tức đài phát thanh! Chúng tôi có mọi thứ bạn muốn biết ngay trên kênh này!"
+    },
+    {
+      "id": "language_10002853",
+      "source": "Artifice of APPLe",
+      "target": "Sản phẩm của APPLe"
+    },
+    {
+      "id": "language_10002854",
+      "source": "He firmly believes that light is a kind of particle. Most of his theories have been proven correct, and he's not completely wrong this time.",
+      "target": "Ông tin chắc rằng ánh sáng là một loại hạt. Hầu hết các lý thuyết của ông đã được chứng minh là đúng và lần này ông không hoàn toàn sai."
+    },
+    {
+      "id": "language_10002855",
+      "source": "Artifice of Schneider",
+      "target": "Tác phẩm của Schneider"
+    },
+    {
+      "id": "language_10002856",
+      "source": "Perhaps this should not have happened. Perhaps you still have a chance to bring her back to the Orange Orchard.",
+      "target": "Có lẽ điều này không nên xảy ra. Biết đâu bạn vẫn còn cơ hội đưa cô ấy về Orange Orchard."
+    },
+    {
+      "id": "language_10002857",
+      "source": "Artifice of La Source",
+      "target": "Tạo tác của La Source"
+    },
+    {
+      "id": "language_10002858",
+      "source": "Keep wishing. It has never worked anyway.",
+      "target": "Hãy cứ ước. Dù sao nó cũng chưa bao giờ hoạt động."
+    },
+    {
+      "id": "language_10002859",
+      "source": "Artifice of Cristallo",
+      "target": "Tác phẩm của Cristallo"
+    },
+    {
+      "id": "language_10002860",
+      "source": "Why should a good kid like this suffer? This isn't fair.",
+      "target": "Tại sao một đứa trẻ ngoan như thế này lại phải chịu đau khổ? Điều này không công bằng."
+    },
+    {
+      "id": "language_10002861",
+      "source": "Artifice of Centurion",
+      "target": "Tác phẩm của Centurion"
+    },
+    {
+      "id": "language_10002862",
+      "source": "Give her more surprises, dangers, and extraordinary experiences. This is the only way to keep her around.",
+      "target": "Hãy cho cô ấy nhiều điều bất ngờ, nguy hiểm và những trải nghiệm phi thường. Đây là cách duy nhất để giữ cô ấy ở lại."
+    },
+    {
+      "id": "language_10002863",
+      "source": "Artifice of TTT",
+      "target": "Tuyệt chiêu của TTT"
+    },
+    {
+      "id": "language_10002864",
+      "source": "The bodiless are still different from souls, but apparently she would like to talk about something else.",
+      "target": "Vô thân xác vẫn khác với linh hồn, nhưng hình như cô ấy muốn nói về chuyện khác."
+    },
+    {
+      "id": "language_10002865",
+      "source": "Artifice of aliEn T",
+      "target": "Tạo tác của người ngoài hành tinh T"
+    },
+    {
+      "id": "language_10002866",
+      "source": "<nobr>DUU-DUU</nobr>-BELL-BOO. Now repeat after me. <nobr>DUU-DUU</nobr>-BELL-BOO.",
+      "target": "DUU-DUU-BELL-BOO. Bây giờ hãy lặp lại theo tôi. DUU-DUU-BELL-BOO."
+    },
+    {
+      "id": "language_10002867",
+      "source": "Artifice of Leilani",
+      "target": "Tác phẩm của Leilani"
+    },
+    {
+      "id": "language_10002868",
+      "source": "No matter what happens, she always greets you with open arms. \"Aloha!\"",
+      "target": "Dù có chuyện gì xảy ra, cô ấy vẫn luôn chào đón bạn với vòng tay rộng mở. \"Aloha!\""
+    },
+    {
+      "id": "language_10002869",
+      "source": "Artifice of John Titor",
+      "target": "Tác phẩm của John Titor"
+    },
+    {
+      "id": "language_10002870",
+      "source": "She comes from the future. She knows what the future has in store for her.",
+      "target": "Cô ấy đến từ tương lai. Cô ấy biết tương lai sẽ có điều gì chờ đợi cô ấy."
+    },
+    {
+      "id": "language_10002871",
+      "source": "Artifice of Necrologist",
+      "target": "Kỹ thuật của bác sĩ hoại tử"
+    },
+    {
+      "id": "language_10002872",
+      "source": "She bends over to listen to the sighs of the deceased, and bestows meaning upon their lives.",
+      "target": "Cô cúi xuống để lắng nghe tiếng thở dài của những người đã khuất và ban tặng ý nghĩa cho cuộc sống của họ."
+    },
+    {
+      "id": "language_10002873",
+      "source": "Artifice of Satsuki",
+      "target": "Tạo tác của Satsuki"
+    },
+    {
+      "id": "language_10002874",
+      "source": "A <nobr>self-abased</nobr> yet tenacious sakura petal, and a heart which has found where it belongs.",
+      "target": "Một cánh hoa anh đào tự ti nhưng kiên cường và một trái tim đã tìm thấy nơi nó thuộc về."
+    },
+    {
+      "id": "language_10002875",
+      "source": "Artifice of An-an Lee",
+      "target": "Tác phẩm của An-an Lee"
+    },
+    {
+      "id": "language_10002876",
+      "source": "Believe in science. Of course chocolate can drive away the evils for you.",
+      "target": "Tin vào khoa học. Tất nhiên sô cô la có thể xua đuổi những tệ nạn cho bạn."
+    },
+    {
+      "id": "language_10002877",
+      "source": "Artifice of Twins Sleep",
+      "target": "Giấc ngủ của cặp song sinh"
+    },
+    {
+      "id": "language_10002878",
+      "source": "Hey! Hey! Hello! Hello! Goodbye! Goodbye!",
+      "target": "Chào! Chào! Xin chào! Xin chào! Tạm biệt! Tạm biệt!"
+    },
+    {
+      "id": "language_10002879",
+      "source": "Artifice of Matilda",
+      "target": "Đồ tạo tác của Matilda"
+    },
+    {
+      "id": "language_10002880",
+      "source": "Atop the world, be the distinguished one to look down at everything with pride!",
+      "target": "Trên đỉnh thế giới, hãy là người nổi bật nhìn xuống mọi thứ với niềm tự hào!"
+    },
+    {
+      "id": "language_10002881",
+      "source": "Artifice of Rabies",
+      "target": "Thủ đoạn của bệnh dại"
+    },
+    {
+      "id": "language_10002882",
+      "source": "He still remembered love, before he forgot everything.",
+      "target": "Anh vẫn còn nhớ tình yêu, trước khi anh quên đi tất cả."
+    },
+    {
+      "id": "language_10002883",
+      "source": "Artifice of Tennant",
+      "target": "Tác phẩm của Tennant"
+    },
+    {
+      "id": "language_10002884",
+      "source": "Those words are sweeter than candy, those \"diamonds\" are more dazzling than the stars, and they all belong to you, as long as you don't mind they are just lies.",
+      "target": "Những lời nói đó ngọt ngào hơn kẹo, những “viên kim cương” đó rực rỡ hơn những vì sao và tất cả đều thuộc về bạn, chỉ cần bạn không bận tâm thì chúng chỉ là những lời nói dối."
+    },
+    {
+      "id": "language_10002885",
+      "source": "Artifice of Ms. Moissan",
+      "target": "Tuyệt phẩm của cô Moissan"
+    },
+    {
+      "id": "language_10002886",
+      "source": "She knows well that there are more kinds of humans than glaze colors. She would rather be a guide than be a shaper.",
+      "target": "Cô biết rõ rằng có nhiều loại người hơn màu men. Cô ấy thà làm người hướng dẫn còn hơn là người định hình."
+    },
+    {
+      "id": "language_10002887",
+      "source": "Artifice of Bette",
+      "target": "Tác phẩm của Bette"
+    },
+    {
+      "id": "language_10002888",
+      "source": "This is the 125th time she falls, and the 126th time she stands up in the camera.",
+      "target": "Đây là lần thứ 125 cô ngã và là lần thứ 126 cô đứng dậy trước ống kính."
+    },
+    {
+      "id": "language_10002889",
+      "source": "Artifice of Poltergeist",
+      "target": "Tạo tác của Poltergeist"
+    },
+    {
+      "id": "language_10002890",
+      "source": "Don't look at her, or ignore her. Don't remember her, or forget her.",
+      "target": "Đừng nhìn cô ấy hoặc phớt lờ cô ấy. Đừng nhớ cô ấy, hoặc quên cô ấy."
+    },
+    {
+      "id": "language_10002891",
+      "source": "Artifice of Medicine Pocket",
+      "target": "Túi đựng thuốc"
+    },
+    {
+      "id": "language_10002892",
+      "source": "Completely different from those fettered by the rules, they are the most useful one. That's enough.",
+      "target": "Hoàn toàn khác với những thứ bị ràng buộc bởi các quy tắc, chúng là những thứ hữu ích nhất. Thế là đủ rồi."
+    },
+    {
+      "id": "language_10002893",
+      "source": "Artifice of Voyager",
+      "target": "Tác phẩm của nhà du hành"
+    },
+    {
+      "id": "language_10002894",
+      "source": "Collecting all the notes and melodies on her way, she decided to let the violin express her.",
+      "target": "Thu thập tất cả các nốt nhạc và giai điệu trên đường đi, cô quyết định để đàn violin thể hiện mình."
+    },
+    {
+      "id": "language_10002895",
+      "source": "Artifice of Click",
+      "target": "Kỹ thuật bấm chuột"
+    },
+    {
+      "id": "language_10002896",
+      "source": "He records the truest side of everything, through the camera, and the incontrovertible courage.",
+      "target": "Anh ấy ghi lại khía cạnh chân thực nhất của mọi thứ, qua máy ảnh và lòng dũng cảm không thể chối cãi."
+    },
+    {
+      "id": "language_10002897",
+      "source": "Artifice of Darley Clatter",
+      "target": "Tác phẩm của Darley Clatter"
+    },
+    {
+      "id": "language_10002898",
+      "source": "He is great, he is towering, and he creaks. The wind after him smells like carrot.",
+      "target": "Anh ấy thật tuyệt, anh ấy cao chót vót và anh ấy kêu cót két. Cơn gió đuổi theo anh có mùi như cà rốt."
+    },
+    {
+      "id": "language_10002899",
+      "source": "Artifice of Eternity",
+      "target": "Tuyệt phẩm của sự vĩnh cửu"
+    },
+    {
+      "id": "language_10002900",
+      "source": "Life starts and ends in a surging blue wave, and she drinks it.",
+      "target": "Cuộc sống bắt đầu và kết thúc trong một làn sóng xanh dâng trào, và cô ấy uống nó."
+    },
+    {
+      "id": "language_10002901",
+      "source": "Artifice of Ms. NewBabel",
+      "target": "Tác phẩm của cô NewBabel"
+    },
+    {
+      "id": "language_10002902",
+      "source": "Times will be eventually changed and reborn. The new era is like an obedient puppy by her feet.",
+      "target": "Thời thế cuối cùng sẽ được thay đổi và tái sinh. Thời đại mới giống như chú cún con ngoan ngoãn dưới chân nàng."
+    },
+    {
+      "id": "language_10002903",
+      "source": "Artifice of Tooth Fairy",
+      "target": "Tạo tác của Tiên Răng"
+    },
+    {
+      "id": "language_10002904",
+      "source": "A tooth and a song drift into children's dreams, sweet as golden wing dust.",
+      "target": "Một chiếc răng và một bài hát trôi vào giấc mơ trẻ thơ, ngọt ngào như bụi cánh vàng."
+    },
+    {
+      "id": "language_10002905",
+      "source": "Artifice of ONiON",
+      "target": "Sản phẩm của ONiON"
+    },
+    {
+      "id": "language_10002906",
+      "source": "People always focus on that head, just like how they always stare at the absurdity above the truth. She will reveal them one day, both of them.",
+      "target": "Con người luôn tập trung vào cái đầu đó, giống như cách họ luôn nhìn chằm chằm vào sự phi lý phía trên sự thật. Một ngày nào đó cô ấy sẽ tiết lộ chúng, cả hai."
+    },
+    {
+      "id": "language_10002907",
+      "source": "Artifice of Sputnik",
+      "target": "Tác phẩm của Sputnik"
+    },
+    {
+      "id": "language_10002908",
+      "source": "It was a long journey, and she names it \"The Way Home.\"",
+      "target": "Đó là một cuộc hành trình dài và cô đặt tên cho nó là \"Đường về nhà\"."
+    },
+    {
+      "id": "language_10002909",
+      "source": "Artifice of Jessica",
+      "target": "Tác phẩm của Jessica"
+    },
+    {
+      "id": "language_10002910",
+      "source": "She dreamed of <nobr>far-flung</nobr> greenery and deep, deep lakes. Her eyes now open wide, she's no longer alone.",
+      "target": "Cô mơ về những vùng đất xanh tươi và những hồ nước sâu thẳm. Đôi mắt cô bây giờ mở to, cô không còn cô đơn nữa."
+    },
+    {
+      "id": "language_10002911",
+      "source": "Artifice of Mesmer Jr.",
+      "target": "Tác phẩm của Mesmer Jr."
+    },
+    {
+      "id": "language_10002912",
+      "source": "Please try to keep everything in order ... Please.",
+      "target": "Hãy cố gắng giữ mọi thứ ngăn nắp... Làm ơn."
+    },
+    {
+      "id": "language_10002913",
+      "source": "Artifice of Erick",
+      "target": "Tác phẩm của Erick"
+    },
+    {
+      "id": "language_10002914",
+      "source": "She will step on the stairs to Valhalla, in the story, in her dream, and in the future.",
+      "target": "Cô ấy sẽ bước lên những bậc thang dẫn đến Valhalla, trong câu chuyện, trong giấc mơ và trong tương lai."
+    },
+    {
+      "id": "language_10002915",
+      "source": "Artifice of Door",
+      "target": "Đồ tạo tác của cửa"
+    },
+    {
+      "id": "language_10002916",
+      "source": "Watch out, don't get yourself hurt by the sharp reflection of reality.",
+      "target": "Hãy cẩn thận, đừng để bản thân bị tổn thương bởi sự phản chiếu sắc nét của thực tế."
+    },
+    {
+      "id": "language_10002917",
+      "source": "Artifice of Blonney",
+      "target": "Tác phẩm của Blonney"
+    },
+    {
+      "id": "language_10002918",
+      "source": "Discos, parties, trendy hair bands, and nail polish—a secret notebook for her crayons, stories, and heart.",
+      "target": "Vũ trường, các bữa tiệc, dây buộc tóc hợp thời trang và sơn móng tay—một cuốn sổ tay bí mật dành cho bút chì màu, những câu chuyện và trái tim của cô ấy."
+    },
+    {
+      "id": "language_10002919",
+      "source": "Artifice of Horropedia",
+      "target": "Tác phẩm của Horropedia"
+    },
+    {
+      "id": "language_10002920",
+      "source": "Cheers to logic, but also to Kensington syrup, ghosts, and taking the road less traveled.",
+      "target": "Chúc mừng logic, nhưng cũng có xi-rô Kensington, ma, và đi trên con đường ít người đi."
+    },
+    {
+      "id": "language_10002921",
+      "source": "Artifice of Melania",
+      "target": "Tác phẩm của Melania"
+    },
+    {
+      "id": "language_10002922",
+      "source": "She has taken enough pictures of her different spoils to put together a thick album. But she's always ready for more. ",
+      "target": "Cô ấy đã chụp đủ những bức ảnh về các chiến lợi phẩm khác nhau của mình để tập hợp lại thành một cuốn album dày. Nhưng cô ấy luôn sẵn sàng cho nhiều hơn thế."
+    },
+    {
+      "id": "language_10002923",
+      "source": "Artifice of Pickles",
+      "target": "Nghệ thuật dưa chua"
+    },
+    {
+      "id": "language_10002924",
+      "source": "This is an adorable Border Collie loved by many, a good boy who never binge on strawberry cookies, a deep thinker pondering nihilism.",
+      "target": "Đây là chú chó Border Collie đáng yêu được nhiều người yêu thích, một cậu bé ngoan không bao giờ say sưa với bánh quy dâu, một người có tư tưởng sâu sắc đang cân nhắc chủ nghĩa hư vô."
+    },
+    {
+      "id": "language_10002925",
+      "source": "Artifice of Diggers",
+      "target": "Kỹ thuật của thợ đào"
+    },
+    {
+      "id": "language_10002926",
+      "source": "For artists as rebellious and progress as he is, the path lies ahead of them is always bumpy. People praise the new arts, but seldomly protect its creators. ",
+      "target": "Đối với những nghệ sĩ nổi loạn và cầu tiến như anh, con đường phía trước luôn gập ghềnh. Mọi người ca ngợi những nghệ thuật mới nhưng hiếm khi bảo vệ những người sáng tạo ra nó."
+    },
+    {
+      "id": "language_10002927",
+      "source": "Unilog",
+      "target": "Unilog"
+    },
+    {
+      "id": "language_10002928",
+      "source": "A unique thread that was never spun. It can spin the Spinning Wheel 1 time.\nUsed in character summoning.",
+      "target": "Một sợi chỉ độc đáo chưa bao giờ được quay. Nó có thể quay Bánh Xe Quay 1 lần.\nĐược sử dụng trong việc triệu hồi nhân vật."
+    },
+    {
+      "id": "language_10002929",
+      "source": "The golden rabbit is a well known myth. It spies on people, steals their time, and sometimes even changes their fates. Though it's old, decrepit, and stale, it is unique and indispensable.",
+      "target": "Con thỏ vàng là một huyền thoại nổi tiếng. Nó theo dõi mọi người, đánh cắp thời gian của họ và đôi khi còn thay đổi số phận của họ. Dù cũ kỹ, cũ kỹ nhưng nó vẫn độc đáo và không thể thiếu."
+    },
+    {
+      "id": "language_10002930",
+      "source": "Decalog",
+      "target": "đề can"
+    },
+    {
+      "id": "language_10002931",
+      "source": "A thread with ten unique, perfect qualities. Can be used to Summon x10.",
+      "target": "Một sợi chỉ có mười phẩm chất độc đáo, hoàn hảo. Có thể dùng để Triệu hồi x10."
+    },
+    {
+      "id": "language_10002932",
+      "source": "The storyteller never thought that golden rabbits could travel in packs. Nobody knows what this might entails, but no one chooses one single rabbit over more of it.",
+      "target": "Người kể chuyện chưa bao giờ nghĩ rằng thỏ vàng có thể đi theo bầy. Không ai biết điều này có thể đòi hỏi điều gì, nhưng không ai chọn một con thỏ duy nhất hơn nó."
+    },
+    {
+      "id": "language_10002933",
+      "source": "Mineral Crafting",
+      "target": "Chế tạo khoáng sản"
+    },
+    {
+      "id": "language_10002934",
+      "source": "Testing Item",
+      "target": "Mục kiểm tra"
+    },
+    {
+      "id": "language_10002935",
+      "source": "Dalpobeast",
+      "target": "con chó đốm"
+    },
+    {
+      "id": "language_10002936",
+      "source": "A mysterious organism that feeds on electrical conductors. Used to get 2x stage drops.",
+      "target": "Một sinh vật bí ẩn ăn chất dẫn điện. Được sử dụng để nhận được 2 lần rớt giai đoạn."
+    },
+    {
+      "id": "language_10002937",
+      "source": "The dalpobeast can often be found around electrical conductors. Some claimed to have witnessed these creatures devouring electricity. Such moments may seem incredulous, but the sudden spike in power suggests this is more than just a hallucination.",
+      "target": "Dalpobeast thường có thể được tìm thấy xung quanh các dây dẫn điện. Một số người khẳng định đã chứng kiến ​​những sinh vật này ăn điện. Những khoảnh khắc như vậy có vẻ khó tin, nhưng sức mạnh tăng vọt đột ngột cho thấy đây không chỉ là ảo giác."
+    },
+    {
+      "id": "language_10002938",
+      "source": "Da'dalpobeast",
+      "target": "Da'dalpobeast"
+    },
+    {
+      "id": "language_10002939",
+      "source": "A rare Dalpobeast. Used to get 4x stage drops.",
+      "target": "Một con Dalpobeast quý hiếm. Được sử dụng để nhận được 4x giọt giai đoạn."
+    },
+    {
+      "id": "language_10002940",
+      "source": "People delving in the field of arcanum have spent fortunes on them. Everybody wants one, but it could never be truly owned by anyone. They would appear and disappear without warning, leaving a patch of \"rare materials\" behind.",
+      "target": "Những người tìm hiểu sâu về lĩnh vực arcanum đã bỏ ra rất nhiều tiền cho chúng. Mọi người đều muốn một chiếc, nhưng nó không bao giờ có thể thực sự thuộc sở hữu của bất kỳ ai. Chúng sẽ xuất hiện và biến mất mà không báo trước, để lại một mảng \"vật liệu quý hiếm\"."
+    },
+    {
+      "id": "language_10002941",
+      "source": "Default Portrait",
+      "target": "Chân dung mặc định"
+    },
+    {
+      "id": "language_10002942",
+      "source": "Witness of the \"Storm\"",
+      "target": "Nhân chứng của “cơn bão”"
+    },
+    {
+      "id": "language_10002943",
+      "source": "A moment seized in a picture, a fragment of a time gone by, a precious souvenir. This is a token of friendship in memory of the adventures you shared together.\nUse it as your portrait in your profile.",
+      "target": "Một khoảnh khắc được ghi lại trong một bức tranh, một mảnh thời gian trôi qua, một kỷ vật quý giá. Đây là biểu tượng của tình bạn để tưởng nhớ những cuộc phiêu lưu mà các bạn đã chia sẻ cùng nhau.\nSử dụng nó làm chân dung trong hồ sơ của bạn."
+    },
+    {
+      "id": "language_10002944",
+      "source": "In the \"Storm,\" she has witnessed the end of many eras. And she is about to witness more.",
+      "target": "Trong \"Cơn bão\", cô đã chứng kiến ​​sự kết thúc của nhiều thời đại. Và cô ấy sắp chứng kiến ​​nhiều hơn nữa."
+    },
+    {
+      "id": "language_10002945",
+      "source": "Trophy of Glory",
+      "target": "Cúp vinh quang"
+    },
+    {
+      "id": "language_10002946",
+      "source": "When your think back to what has happened ... The memory always brings you great joy.",
+      "target": "Khi bạn nghĩ lại những gì đã xảy ra… Kỷ niệm luôn mang đến cho bạn niềm vui lớn lao."
+    },
+    {
+      "id": "language_10002947",
+      "source": "Forest Shriek",
+      "target": "Tiếng thét rừng"
+    },
+    {
+      "id": "language_10002948",
+      "source": "Under the moon, a blade gleams a steely gray. In the forest, the deer frolic, laugh, and play.",
+      "target": "Dưới ánh trăng, lưỡi kiếm ánh lên màu xám thép. Trong rừng, đàn nai vui đùa, cười đùa."
+    },
+    {
+      "id": "language_10002949",
+      "source": "Montage of Acey",
+      "target": "Sự sắp xếp của Acey"
+    },
+    {
+      "id": "language_10002950",
+      "source": "A famous theft. Many guesses were made about it.",
+      "target": "Một vụ trộm nổi tiếng Nhiều phỏng đoán đã được đưa ra về nó."
+    },
+    {
+      "id": "language_10002951",
+      "source": "Montage of Acey - Deluxe",
+      "target": "Montage của Acey - Deluxe"
+    },
+    {
+      "id": "language_10002952",
+      "source": "A famous theft. Nobody knows what exactly happened in that ridiculous night. Except for you.",
+      "target": "Một vụ trộm nổi tiếng Không ai biết chính xác chuyện gì đã xảy ra trong đêm lố bịch đó. Ngoại trừ bạn."
+    },
+    {
+      "id": "language_10002953",
+      "source": "Creature from Green Lake",
+      "target": "Sinh vật từ Hồ Xanh"
+    },
+    {
+      "id": "language_10002954",
+      "source": "She has long awaited you with bated breath.",
+      "target": "Cô ấy đã nín thở chờ đợi bạn từ lâu."
+    },
+    {
+      "id": "language_10002955",
+      "source": "Creature from Green Lake - Deluxe",
+      "target": "Sinh vật từ Hồ Xanh - Deluxe"
+    },
+    {
+      "id": "language_10002956",
+      "source": "She has long awaited you with bated breath, to rouse the dreaming friend in the forest depths.",
+      "target": "Cô ấy đã hồi hộp chờ đợi bạn từ lâu để đánh thức người bạn mộng mơ trong rừng sâu."
+    },
+    {
+      "id": "language_10002957",
+      "source": "LF Polarization",
+      "target": "Phân cực LF"
+    },
+    {
+      "id": "language_10002958",
+      "source": "Low frequency polarization. Scattered polarization which is not enough to form images. A <nobr>low-level</nobr> material used for ascending a Psychube's level limit.",
+      "target": "Phân cực tần số thấp. Phân cực rải rác không đủ để tạo thành hình ảnh. Một vật liệu cấp thấp dùng để tăng giới hạn cấp độ của Psychube."
+    },
+    {
+      "id": "language_10002959",
+      "source": "Polarization whose extremely low amplitude makes it unobservable. It is mainly generated by stable mental images. It reaches the peak in <nobr>1-3</nobr> hours after the image is formed, and starts to vanish in <nobr>12-15</nobr> days.",
+      "target": "Sự phân cực có biên độ cực thấp khiến nó không thể quan sát được. Nó chủ yếu được tạo ra bởi những hình ảnh tinh thần ổn định. Nó đạt đến đỉnh điểm sau 1-3 giờ sau khi hình ảnh được hình thành và bắt đầu biến mất sau 12-15 ngày."
+    },
+    {
+      "id": "language_10002960",
+      "source": "MF Polarization",
+      "target": "Phân cực MF"
+    },
+    {
+      "id": "language_10002961",
+      "source": "Medium frequency polarization, the weak polarization which is not enough for forming images. A <nobr>mid-level</nobr> material used for ascending Psychube's level limit.",
+      "target": "Phân cực tần số trung bình, phân cực yếu không đủ để tạo thành hình ảnh. Một vật liệu trung cấp dùng để tăng giới hạn cấp độ của Psychube."
+    },
+    {
+      "id": "language_10002962",
+      "source": "This polarization of low amplitude can be seen continually when observed. It is mainly generated by <nobr>long-lasting</nobr>, mild mental images, such as sorrow and nostalgia.",
+      "target": "Sự phân cực có biên độ thấp này có thể được nhìn thấy liên tục khi quan sát. Nó chủ yếu được tạo ra bởi những hình ảnh tinh thần nhẹ nhàng, lâu dài, chẳng hạn như nỗi buồn và nỗi nhớ."
+    },
+    {
+      "id": "language_10002963",
+      "source": "HF Polarization",
+      "target": "Phân cực HF"
+    },
+    {
+      "id": "language_10002964",
+      "source": "High frequency polarization, the gathered polarization which is not enough for forming images. A <nobr>high-level</nobr> material used for ascending Psychube's level limit.",
+      "target": "Phân cực tần số cao, phân cực tập hợp không đủ để tạo thành hình ảnh. Một vật liệu cấp cao dùng để tăng giới hạn cấp độ của Psychube."
+    },
+    {
+      "id": "language_10002965",
+      "source": "This polarization has high amplitude and is easy to observe, but it is less often seen compared to MF Polarization. It is mainly generated by strong and temporary mental images, such as anger, impulse and greed.",
+      "target": "Phân cực này có biên độ cao và dễ quan sát nhưng ít được thấy hơn so với Phân cực MF. Nó chủ yếu được tạo ra bởi những hình ảnh tinh thần mạnh mẽ và nhất thời, chẳng hạn như giận dữ, bốc đồng và tham lam."
+    },
+    {
+      "id": "language_10002966",
+      "source": "EHF Polarization",
+      "target": "Phân cực EHF"
+    },
+    {
+      "id": "language_10002967",
+      "source": "Extreme high frequency polarization, the boiling polarization which is not enough for forming images. The <nobr>highest-level</nobr> material used for ascending Psychube's level limit.",
+      "target": "Phân cực tần số cực cao, phân cực sôi không đủ để tạo thành hình ảnh. Vật liệu cấp cao nhất được sử dụng để tăng giới hạn cấp độ của Psychube."
+    },
+    {
+      "id": "language_10002968",
+      "source": "Rare polarization of extremely high amplitude. It is mainly generated by extremely unstable mental images. Whoever sees it must centrifuge it immediately and inform the head of the department as soon as possible.",
+      "target": "Sự phân cực hiếm có biên độ cực cao. Nó chủ yếu được tạo ra bởi những hình ảnh tinh thần cực kỳ không ổn định. Ai nhìn thấy phải ly tâm ngay và báo cho trưởng bộ phận càng sớm càng tốt."
+    },
+    {
+      "id": "language_10002969",
+      "source": "Kern Baby",
+      "target": "Kern Baby"
+    },
+    {
+      "id": "language_10002970",
+      "source": "The priest who symbolizes harvest. Used to level up all parts of the Paleohall.",
+      "target": "Vị linh mục tượng trưng cho mùa gặt. Được sử dụng để thăng cấp tất cả các phần của Paleohall."
+    },
+    {
+      "id": "language_10002971",
+      "source": "Some people believe the Kern Baby is a prop for evil witchcraft which brings harvest by plundering. No, that's not true. In the Wilderness where there is nothing, harvest is only a gift of good luck.",
+      "target": "Một số người tin rằng Kern Baby là chỗ dựa cho tà thuật tà ác mang lại thu hoạch bằng cách cướp bóc. Không, điều đó không đúng. Ở nơi Vùng Hoang Dã không có gì, mùa màng chỉ là món quà May Mắn."
+    },
+    {
+      "id": "language_10002972",
+      "source": "Kern Madam",
+      "target": "Bà Kern"
+    },
+    {
+      "id": "language_10002973",
+      "source": "The high priest who symbolizes harvest. Used to level up all parts of the Paleohall.",
+      "target": "Thầy tế lễ thượng phẩm tượng trưng cho mùa gặt. Được sử dụng để thăng cấp tất cả các phần của Paleohall."
+    },
+    {
+      "id": "language_10002974",
+      "source": "People no longer see her as a plunderer. They compliment her wholeheartedly on her garland, and even everything about her. The Wilderness will eventually achieve prosperity, as a result of her generosity.",
+      "target": "Người ta không còn coi cô là kẻ cướp bóc nữa. Họ hết lòng khen ngợi cô về chiếc vòng hoa, và thậm chí mọi thứ về cô. Vùng Hoang Dã cuối cùng sẽ đạt được sự thịnh vượng nhờ vào sự hào phóng của cô ấy."
+    },
+    {
+      "id": "language_10002975",
+      "source": "Child of Prosperity",
+      "target": "Đứa con thịnh vượng"
+    },
+    {
+      "id": "language_10002976",
+      "source": "The underground rock that brings harvest. Used to level up the Paleohall.",
+      "target": "Đá ngầm mang lại mùa màng. Được sử dụng để tăng cấp cho Paleohall."
+    },
+    {
+      "id": "language_10002977",
+      "source": "It shares the same heart beats with this land. Hope rises from the ground as soon as it is unearthed.",
+      "target": "Nó có chung nhịp đập với mảnh đất này. Hy vọng trỗi dậy từ mặt đất ngay khi nó được khai quật."
+    },
+    {
+      "id": "language_10002978",
+      "source": "Carrierwave Carrier",
+      "target": "Sóng mang sóng mang"
+    },
+    {
+      "id": "language_10002979",
+      "source": "A suitcase from which faint music could be heard. Open it to get a <nobr>6-star</nobr> Psychube of your choice.",
+      "target": "Một chiếc vali có thể nghe thấy tiếng nhạc yếu ớt. Mở ra để nhận ngẫu nhiên được 6 sao Psychube mà bạn chọn."
+    },
+    {
+      "id": "language_10002980",
+      "source": "A case keeping all the tuned rhythms which once lingered on the ocean.",
+      "target": "Một chiếc hộp giữ lại tất cả những nhịp điệu đã từng đọng lại trên đại dương."
+    },
+    {
+      "id": "language_10002981",
+      "source": "Bottle of Pages",
+      "target": "Chai trang"
+    },
+    {
+      "id": "language_10002982",
+      "source": "A glass bottle containing tattered pages which you have never seen before. Open it to get an archival Page of your choice. Used for Insight of characters.",
+      "target": "Một chai thủy tinh đựng những trang giấy rách nát mà bạn chưa từng thấy trước đây. Mở ra để nhận ngẫu nhiên Trang lưu trữ mà bạn chọn. Được sử dụng để hiểu rõ hơn về các nhân vật."
+    },
+    {
+      "id": "language_10002983",
+      "source": "\"I pursue wisdom. It is the pleasure it brings that I want, not the fame.\"",
+      "target": "\"Tôi theo đuổi sự khôn ngoan. Tôi muốn niềm vui mà nó mang lại chứ không phải danh tiếng.\""
+    },
+    {
+      "id": "language_10002984",
+      "source": "Simple Insight Casket",
+      "target": "chiếc tráp Thấu Thị đơn giản"
+    },
+    {
+      "id": "language_10002985",
+      "source": "A casket which all arcanists are familiar with. Open it to get a <nobr>low-level</nobr> material of your choice used for character Insight or Resonate.",
+      "target": "Một chiếc tráp mà tất cả các nhà thuật toán đều quen thuộc. Mở ra để nhận ngẫu nhiên nguyên liệu cấp thấp mà bạn chọn dùng cho Thấu Thị hoặc Cộng Hưởng nhân vật."
+    },
+    {
+      "id": "language_10002986",
+      "source": "No matter you need it or not, it is not something valuable.",
+      "target": "Dù bạn có cần hay không thì nó cũng không phải là thứ có giá trị."
+    },
+    {
+      "id": "language_10002987",
+      "source": "Fine Insight Casket",
+      "target": "chiếc tráp Fine Insight"
+    },
+    {
+      "id": "language_10002988",
+      "source": "A casket which all arcanists are familiar with. Open it to get a <nobr>mid-level</nobr> material of your choice used for Insight or Resonate.",
+      "target": "Một chiếc tráp mà tất cả các nhà thuật toán đều quen thuộc. Hãy mở nó để lấy nguyên liệu trung bình mà bạn chọn dùng cho Insight hoặc Resonate."
+    },
+    {
+      "id": "language_10002989",
+      "source": "You know what you want. Though it looks plain, it can always meet your pressing need.",
+      "target": "Bạn biết bạn muốn gì. Mặc dù trông có vẻ đơn giản nhưng nó luôn có thể đáp ứng nhu cầu cấp thiết của bạn."
+    },
+    {
+      "id": "language_10002990",
+      "source": "Delicate Insight Casket",
+      "target": "Casket Thấu Thị tinh tế"
+    },
+    {
+      "id": "language_10002991",
+      "source": "A casket which all arcanists are familiar with. Open it to get a <nobr>high-level</nobr> material of your choice used for Insight or Resonate.",
+      "target": "Một chiếc tráp mà tất cả các nhà thuật toán đều quen thuộc. Hãy Mở ra để nhận ngẫu nhiên nguyên liệu cấp cao mà bạn chọn dùng cho Insight hoặc Resonate."
+    },
+    {
+      "id": "language_10002992",
+      "source": "What you have been longing for eagerly. Now it's yours.",
+      "target": "Những gì bạn đã khao khát một cách háo hức. Bây giờ nó là của bạn."
+    },
+    {
+      "id": "language_10002993",
+      "source": "Scroll Container",
+      "target": "Hộp chứa cuộn"
+    },
+    {
+      "id": "language_10002994",
+      "source": "A metal container that seals scrolls. Open it to get an archival Scroll of your choice. Used for Insight of characters.",
+      "target": "Một hộp kim loại để niêm phong các cuộn giấy. Mở nó để lấy một cuộn lưu trữ mà bạn chọn. Được sử dụng để hiểu rõ hơn về các nhân vật."
+    },
+    {
+      "id": "language_10002995",
+      "source": "\"I've grown too tall and lonely ... I'm waiting for ... Who am I waiting for?\"",
+      "target": "“Tôi đã lớn quá và cô đơn… Tôi đang đợi… Tôi đang đợi ai?”"
+    },
+    {
+      "id": "language_10002996",
+      "source": "Crystal Casket",
+      "target": "chiếc tráp pha lê"
+    },
+    {
+      "id": "language_10002997",
+      "source": "A wooden casket that stores Resonance crystals. Open it to get an advanced Resonance crystal of your choice to use for leveling up Character Resonance.",
+      "target": "Một chiếc tráp gỗ chứa tinh thể Cộng Hưởng. Mở ra để nhận ngẫu nhiên được một tinh thể Cộng Hưởng nâng cao mà bạn chọn để sử dụng để tăng cấp Cộng Hưởng Nhân vật."
+    },
+    {
+      "id": "language_10002998",
+      "source": "The whispers inside are overflowing. Seize the opportunity when you get to hear them.",
+      "target": "Những lời thì thầm bên trong tràn ngập. Hãy nắm bắt cơ hội khi bạn được nghe chúng."
+    },
+    {
+      "id": "language_10002999",
+      "source": "Simple Insight Package",
+      "target": "Gói hiểu biết đơn giản"
+    },
+    {
+      "id": "language_10003000",
+      "source": "A package which all arcanists are familiar with. Open it to get a random <nobr>low-level</nobr> material used for Insight or Resonate.",
+      "target": "Chiếc bưu kiện mà mọi Nhà Huyền Thuật đều quen thuộc. Mở nó để lấy nguyên liệu cấp thấp ngẫu nhiên dùng cho Insight hoặc Resonate."
+    },
+    {
+      "id": "language_10003001",
+      "source": "A small surprise you occasionally have in life.",
+      "target": "Một bất ngờ nhỏ thỉnh thoảng bạn gặp phải trong cuộc sống."
+    },
+    {
+      "id": "language_10003002",
+      "source": "Fine Insight Package",
+      "target": "Gói Thấu Thị Tinh Tế"
+    }
+  ],
+  "qa_audit": {
+    "reviewer_1": "PASSED: 100% Master Glossary & Bluepoch Lore Compliance",
+    "reviewer_2": "PASSED: Natural 20th Century Light Novel Anime Polished",
+    "reviewer_3": "PASSED: RichText, Number Tokens & Unicode NFC Certified"
+  }
+}
