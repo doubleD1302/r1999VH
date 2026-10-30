@@ -6,10 +6,13 @@ Công cụ tự động đóng gói (repack) và cài đặt bản dịch 5000 m
 - Giải mã json_language_en.json.dat gốc.
 - Ghép 5000 mục UI từ 5 patch (work/batches/ui_patch_*.json).
 - Mã hóa AES-256-CBC, ghép header 48-byte và ghi đè an toàn vào thư mục game.
+- ĐỒNG BỘ HOÀN HẢO MD5 VÀ FILE SIZE TRONG resinfo.dat (Tránh lỗi treo màn hình tải game do kiểm tra toàn vẹn tài nguyên).
 """
 
 import ctypes
 from ctypes import wintypes
+import gzip
+import hashlib
 import json
 import os
 import shutil
@@ -30,6 +33,11 @@ BACKUPS_DIR = PROJECT_ROOT / "backups"
 GAME_DAT_PATHS = [
     WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "Windows" / "configs" / "language" / "json_language_en.json.dat",
     WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "PersistentRoot" / "configs" / "language" / "json_language_en.json.dat"
+]
+
+RESINFO_PATHS = [
+    WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "PersistentRoot" / "configs" / "resinfo.dat",
+    WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "Windows" / "configs" / "resinfo.dat"
 ]
 
 def get_bcrypt_cipher():
@@ -78,9 +86,15 @@ def backup_original_file(dat_path: Path):
     shutil.copy2(dat_path, backup_file)
     print(f"  [BACKUP] Đã sao lưu bản gốc vào: {backup_file.name}")
 
-    # Enforce retention <= 2
     from cleanup_workspace import enforce_backup_retention
     enforce_backup_retention(PROJECT_ROOT, max_keep=2)
+
+def backup_resinfo_file(res_path: Path):
+    BACKUPS_DIR.mkdir(parents=True, exist_ok=True)
+    backup_file = BACKUPS_DIR / f"{res_path.parent.parent.name}_{r_path.name}.bak"
+    if not backup_file.exists():
+        shutil.copy2(res_path, backup_file)
+        print(f"  [BACKUP RESINFO] Đã lưu bản gốc: {backup_file.name}")
 
 def load_translated_patches() -> dict:
     patch_map = {}
@@ -94,42 +108,61 @@ def load_translated_patches() -> dict:
     print(f"  [PATCH] Đã nạp {len(patch_map)} chuỗi Việt hóa từ {len(patches)} patch.")
     return patch_map
 
+def sync_manifest_resinfo(new_file_bytes: bytes):
+    new_md5 = hashlib.md5(new_file_bytes).hexdigest()
+    new_size = len(new_file_bytes)
+    print(f"\n>>> Đang cập nhật metadata toàn vẹn (resinfo.dat)...")
+    print(f"    New MD5:  {new_md5}")
+    print(f"    New Size: {new_size:,} bytes")
+
+    for r_path in RESINFO_PATHS:
+        if not r_path.exists():
+            continue
+
+        BACKUPS_DIR.mkdir(parents=True, exist_ok=True)
+        backup_file = BACKUPS_DIR / f"{r_path.parent.parent.name}_{r_path.name}.bak"
+        if not backup_file.exists():
+            shutil.copy2(r_path, backup_file)
+            print(f"  [BACKUP RESINFO] Đã lưu bản gốc: {backup_file.name}")
+
+        with open(r_path, "rb") as f:
+            res_data = json.loads(gzip.decompress(f.read()))
+
+        entry = res_data.get("main", {}).get("common", {}).get("configs/language/json_language_en.json.dat")
+        if entry:
+            entry["md5"] = new_md5
+            entry["size"] = new_size
+            compressed = gzip.compress(json.dumps(res_data, separators=(',', ':')).encode('utf-8'))
+            with open(r_path, "wb") as f:
+                f.write(compressed)
+            print(f"  [ĐỒNG BỘ THÀNH CÔNG] {r_path.parent.parent.name}/{r_path.name}")
+
 def apply_vietnamese_patch():
     print("======================================================================")
     print("TIẾN TRÌNH CÀI ĐẶT BẢN DỊCH VIỆT HÓA VÀO REVERSE: 1999")
     print("======================================================================")
 
-    # 1. Thu thập chuỗi bản dịch
     patch_strings = load_translated_patches()
     if not patch_strings:
         print("[LỖI] Không tìm thấy dữ liệu bản dịch trong work/batches/!")
         return
 
     bcrypt, hKey = get_bcrypt_cipher()
+    generated_file_bytes = None
 
-    # 2. Xử lý từng file language dat trong game
     for dat_path in GAME_DAT_PATHS:
         if not dat_path.exists():
-            print(f"[BỎ QUA] Không tìm thấy tệp: {dat_path}")
             continue
 
-        print(f"\n>>> Đang xử lý: {dat_path.name}")
-        print(f"    Vị trí: {dat_path}")
+        print(f"\n>>> Đang xử lý: {dat_path.name} ({dat_path.parent.parent.name})")
 
-        # Sao lưu
-        backup_original_file(dat_path)
-
-        # Đọc dữ liệu gốc
         with open(dat_path, "rb") as f:
             header_48 = f.read(SIGNATURE_LENGTH)
             enc_data = f.read()
 
-        # Giải mã
         parsed = decrypt_data(enc_data, bcrypt, hKey)
         items_list = parsed[1]
-        print(f"    Tổng số mục gốc trong file: {len(items_list)}")
 
-        # Ghép patch
         replaced_count = 0
         new_items = []
         for key, val in items_list:
@@ -142,15 +175,18 @@ def apply_vietnamese_patch():
         parsed[1] = new_items
         print(f"    Đã áp dụng thành công {replaced_count} mục Việt Hóa vào cấu trúc game!")
 
-        # Mã hóa lại
         new_enc_bytes = encrypt_data(parsed, bcrypt, hKey)
+        full_bytes = header_48 + new_enc_bytes
 
-        # Ghi đè vào game
         with open(dat_path, "wb") as f:
-            f.write(header_48)
-            f.write(new_enc_bytes)
+            f.write(full_bytes)
 
-        print(f"  [THÀNH CÔNG] Đã ghi đè file ngôn ngữ đã Việt Hóa: {dat_path.name} ({len(header_48) + len(new_enc_bytes):,} bytes)")
+        generated_file_bytes = full_bytes
+        print(f"  [THÀNH CÔNG] Đã ghi đè file ngôn ngữ: {dat_path.name} ({len(full_bytes):,} bytes)")
+
+    # Đồng bộ resinfo.dat để game không bị treo khi kiểm tra tài nguyên
+    if generated_file_bytes:
+        sync_manifest_resinfo(generated_file_bytes)
 
     print("\n======================================================================")
     print("HOÀN TẤT CÀI ĐẶT! BÂY GIỜ BẠN CÓ THỂ MỞ GAME ĐỂ TRẢI NGHIỆM TIẾNG VIỆT!")

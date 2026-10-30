@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 tools/restore_original.py
-Khôi phục file ngôn ngữ gốc của game Reverse: 1999 từ thư mục VietHoa/backups/.
+Khôi phục file ngôn ngữ gốc và manifest resinfo.dat của game Reverse: 1999 từ thư mục VietHoa/backups/.
 """
 
 import shutil
@@ -14,6 +14,11 @@ BACKUPS_DIR = PROJECT_ROOT / "backups"
 GAME_DAT_PATHS = [
     WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "Windows" / "configs" / "language" / "json_language_en.json.dat",
     WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "PersistentRoot" / "configs" / "language" / "json_language_en.json.dat"
+]
+
+RESINFO_PATHS = [
+    WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "PersistentRoot" / "configs" / "resinfo.dat",
+    WORKSPACE_ROOT / "Reverse1999en" / "reverse1999_Data" / "StreamingAssets" / "Windows" / "configs" / "resinfo.dat"
 ]
 
 def restore_backup():
@@ -32,7 +37,14 @@ def restore_backup():
     for dat_path in GAME_DAT_PATHS:
         if dat_path.parent.exists():
             shutil.copy2(latest_backup, dat_path)
-            print(f"  [HOÀN NGUYÊN] Đã khôi phục: {dat_path}")
+            print(f"  [HOÀN NGUYÊN] Đã khôi phục file ngôn ngữ: {dat_path}")
+
+    # Khôi phục resinfo.dat nếu có bản backup
+    for r_path in RESINFO_PATHS:
+        bak_file = BACKUPS_DIR / f"{r_path.parent.parent.name}_{r_path.name}.bak"
+        if bak_file.exists():
+            shutil.copy2(bak_file, r_path)
+            print(f"  [HOÀN NGUYÊN] Đã khôi phục manifest: {r_path.name} ({r_path.parent.parent.name})")
 
     print("\n[THÀNH CÔNG] Đã khôi phục hoàn toàn file tiếng Anh nguyên bản cho game!")
 
