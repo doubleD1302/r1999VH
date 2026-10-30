@@ -1,0 +1,36 @@
+# Python virtual environments & bytecode
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Build outputs, temporary directories & archives
+dist/
+build/
+work/
+backups/
+staging/
+reports/
+
+# Large binaries & compiled archives
+*.exe
+*.apk
+*.zip
+*.idsig
+*.dat
+*.unity3d
+
+# Android build & local properties
+android/build/
+android/.gradle/
+android/app/build/
+android/local.properties
+android/signing/*.keystore
+android_launcher_*/
+launcher_next_*/
+
+# OS generated files
+.DS_Store
+Thumbs.db
