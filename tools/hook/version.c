@@ -4,7 +4,129 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Forward declarations of Lua C API functions from tolua.dll
+// ============================================================================
+// 1. SYSTEM VERSION.DLL PROXY (Không dùng .def forwarder để tránh lỗi Error 193)
+// ============================================================================
+static HMODULE hOriginalVersion = NULL;
+
+static void EnsureOriginalLoaded() {
+    if (hOriginalVersion) return;
+    wchar_t sysDir[MAX_PATH];
+    GetSystemDirectoryW(sysDir, MAX_PATH);
+    wcscat(sysDir, L"\\version.dll");
+    hOriginalVersion = LoadLibraryW(sysDir);
+}
+
+static FARPROC GetOrigProc(const char* name) {
+    EnsureOriginalLoaded();
+    return hOriginalVersion ? GetProcAddress(hOriginalVersion, name) : NULL;
+}
+
+__declspec(dllexport) BOOL WINAPI GetFileVersionInfoA(LPCSTR lptstrFilename, DWORD dwHandle, DWORD dwLen, LPVOID lpData) {
+    typedef BOOL (WINAPI *pfn)(LPCSTR, DWORD, DWORD, LPVOID);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoA");
+    return p ? p(lptstrFilename, dwHandle, dwLen, lpData) : FALSE;
+}
+
+__declspec(dllexport) BOOL WINAPI GetFileVersionInfoW(LPCWSTR lptstrFilename, DWORD dwHandle, DWORD dwLen, LPVOID lpData) {
+    typedef BOOL (WINAPI *pfn)(LPCWSTR, DWORD, DWORD, LPVOID);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoW");
+    return p ? p(lptstrFilename, dwHandle, dwLen, lpData) : FALSE;
+}
+
+__declspec(dllexport) DWORD WINAPI GetFileVersionInfoSizeA(LPCSTR lptstrFilename, LPDWORD lpdwHandle) {
+    typedef DWORD (WINAPI *pfn)(LPCSTR, LPDWORD);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoSizeA");
+    return p ? p(lptstrFilename, lpdwHandle) : 0;
+}
+
+__declspec(dllexport) DWORD WINAPI GetFileVersionInfoSizeW(LPCWSTR lptstrFilename, LPDWORD lpdwHandle) {
+    typedef DWORD (WINAPI *pfn)(LPCWSTR, LPDWORD);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoSizeW");
+    return p ? p(lptstrFilename, lpdwHandle) : 0;
+}
+
+__declspec(dllexport) BOOL WINAPI VerQueryValueA(LPCVOID pBlock, LPCSTR lpSubBlock, LPVOID *lplpBuffer, PUINT puLen) {
+    typedef BOOL (WINAPI *pfn)(LPCVOID, LPCSTR, LPVOID*, PUINT);
+    pfn p = (pfn)GetOrigProc("VerQueryValueA");
+    return p ? p(lplpBuffer ? pBlock : NULL, lpSubBlock, lplpBuffer, puLen) : FALSE;
+}
+
+__declspec(dllexport) BOOL WINAPI VerQueryValueW(LPCVOID pBlock, LPCWSTR lpSubBlock, LPVOID *lplpBuffer, PUINT puLen) {
+    typedef BOOL (WINAPI *pfn)(LPCVOID, LPCWSTR, LPVOID*, PUINT);
+    pfn p = (pfn)GetOrigProc("VerQueryValueW");
+    return p ? p(lplpBuffer ? pBlock : NULL, lpSubBlock, lplpBuffer, puLen) : FALSE;
+}
+
+__declspec(dllexport) DWORD WINAPI GetFileVersionInfoSizeExA(DWORD dwFlags, LPCSTR lpwstrFilename, LPDWORD lpdwHandle) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPCSTR, LPDWORD);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoSizeExA");
+    return p ? p(dwFlags, lpwstrFilename, lpdwHandle) : 0;
+}
+
+__declspec(dllexport) DWORD WINAPI GetFileVersionInfoSizeExW(DWORD dwFlags, LPCWSTR lpwstrFilename, LPDWORD lpdwHandle) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPCWSTR, LPDWORD);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoSizeExW");
+    return p ? p(dwFlags, lpwstrFilename, lpdwHandle) : 0;
+}
+
+__declspec(dllexport) BOOL WINAPI GetFileVersionInfoExA(DWORD dwFlags, LPCSTR lpwstrFilename, DWORD dwHandle, DWORD dwLen, LPVOID lpData) {
+    typedef BOOL (WINAPI *pfn)(DWORD, LPCSTR, DWORD, DWORD, LPVOID);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoExA");
+    return p ? p(dwFlags, lpwstrFilename, dwHandle, dwLen, lpData) : FALSE;
+}
+
+__declspec(dllexport) BOOL WINAPI GetFileVersionInfoExW(DWORD dwFlags, LPCWSTR lpwstrFilename, DWORD dwHandle, DWORD dwLen, LPVOID lpData) {
+    typedef BOOL (WINAPI *pfn)(DWORD, LPCWSTR, DWORD, DWORD, LPVOID);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoExW");
+    return p ? p(dwFlags, lpwstrFilename, dwHandle, dwLen, lpData) : FALSE;
+}
+
+__declspec(dllexport) DWORD WINAPI VerLanguageNameA(DWORD wLang, LPSTR szLang, DWORD nSize) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPSTR, DWORD);
+    pfn p = (pfn)GetOrigProc("VerLanguageNameA");
+    return p ? p(wLang, szLang, nSize) : 0;
+}
+
+__declspec(dllexport) DWORD WINAPI VerLanguageNameW(DWORD wLang, LPWSTR szLang, DWORD nSize) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPWSTR, DWORD);
+    pfn p = (pfn)GetOrigProc("VerLanguageNameW");
+    return p ? p(wLang, szLang, nSize) : 0;
+}
+
+__declspec(dllexport) DWORD WINAPI VerFindFileA(DWORD uFlags, LPSTR szFileName, LPSTR szWinDir, LPSTR szAppDir, LPSTR szCurDir, PUINT lpuCurDirLen, LPSTR szDestDir, PUINT lpuDestDirLen) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPSTR, LPSTR, LPSTR, LPSTR, PUINT, LPSTR, PUINT);
+    pfn p = (pfn)GetOrigProc("VerFindFileA");
+    return p ? p(uFlags, szFileName, szWinDir, szAppDir, szCurDir, lpuCurDirLen, szDestDir, lpuDestDirLen) : 0;
+}
+
+__declspec(dllexport) DWORD WINAPI VerFindFileW(DWORD uFlags, LPWSTR szFileName, LPWSTR szWinDir, LPWSTR szAppDir, LPWSTR szCurDir, PUINT lpuCurDirLen, LPWSTR szDestDir, PUINT lpuDestDirLen) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPWSTR, LPWSTR, LPWSTR, LPWSTR, PUINT, LPWSTR, PUINT);
+    pfn p = (pfn)GetOrigProc("VerFindFileW");
+    return p ? p(uFlags, szFileName, szWinDir, szAppDir, szCurDir, lpuCurDirLen, szDestDir, lpuDestDirLen) : 0;
+}
+
+__declspec(dllexport) DWORD WINAPI VerInstallFileA(DWORD uFlags, LPSTR szSrcFileName, LPSTR szDestFileName, LPSTR szSrcDir, LPSTR szDestDir, LPSTR szCurDir, LPSTR szTmpFile, PUINT lpuTmpFileLen) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPSTR, LPSTR, LPSTR, LPSTR, LPSTR, LPSTR, PUINT);
+    pfn p = (pfn)GetOrigProc("VerInstallFileA");
+    return p ? p(uFlags, szSrcFileName, szDestFileName, szSrcDir, szDestDir, szCurDir, szTmpFile, lpuTmpFileLen) : 0;
+}
+
+__declspec(dllexport) DWORD WINAPI VerInstallFileW(DWORD uFlags, LPWSTR szSrcFileName, LPWSTR szDestFileName, LPWSTR szSrcDir, LPWSTR szDestDir, LPWSTR szCurDir, LPWSTR szTmpFile, PUINT lpuTmpFileLen) {
+    typedef DWORD (WINAPI *pfn)(DWORD, LPWSTR, LPWSTR, LPWSTR, LPWSTR, LPWSTR, LPWSTR, PUINT);
+    pfn p = (pfn)GetOrigProc("VerInstallFileW");
+    return p ? p(uFlags, szSrcFileName, szDestFileName, szSrcDir, szDestDir, szCurDir, szTmpFile, lpuTmpFileLen) : 0;
+}
+
+__declspec(dllexport) int WINAPI GetFileVersionInfoByHandle(int h, int a, int b, int c) {
+    typedef int (WINAPI *pfn)(int, int, int, int);
+    pfn p = (pfn)GetOrigProc("GetFileVersionInfoByHandle");
+    return p ? p(h, a, b, c) : 0;
+}
+
+// ============================================================================
+// 2. RUNTIME LUA HOOK FOR VIETNAMESE LOCALIZATION
+// ============================================================================
 typedef int (*pfn_luaL_loadbuffer)(void* L, const char* buff, size_t sz, const char* name);
 typedef int (*pfn_luaL_loadstring)(void* L, const char* s);
 typedef int (*pfn_lua_pcall)(void* L, int nargs, int nresults, int errfunc);
@@ -67,7 +189,7 @@ static void LoadViJson() {
 
 static void TryInstallLuaHook(void* L) {
     if (InterlockedCompareExchange(&g_hook_installed, 1, 0) != 0) {
-        return; // Da duoc cai dat boi luong khac
+        return;
     }
 
     if (!fp_lua_pushlstring || !fp_lua_setfield || !fp_luaL_loadstring || !fp_lua_pcall) {
@@ -75,13 +197,11 @@ static void TryInstallLuaHook(void* L) {
         return;
     }
 
-    // Nap chuoi json vao bien toan cuc _G.__R1999_VI_JSON__
     if (g_vi_json_str && g_vi_json_len > 0) {
         fp_lua_pushlstring(L, g_vi_json_str, g_vi_json_len);
         fp_lua_setfield(L, -10002, "__R1999_VI_JSON__");
     }
 
-    // Lua hook wrapping cjson.decode
     const char* hook_script =
         "local ok, cjson = pcall(require, 'cjson')\n"
         "if ok and cjson and cjson.decode then\n"
@@ -99,13 +219,11 @@ static void TryInstallLuaHook(void* L) {
         "            local t = orig_decode(str)\n"
         "            if type(t) == 'table' and t[1] == 'language_en' and type(t[2]) == 'table' then\n"
         "                local items = t[2]\n"
-        "                local count = 0\n"
         "                for i = 1, #items do\n"
         "                    local it = items[i]\n"
         "                    local val = vi_map[it[1]]\n"
         "                    if val then\n"
         "                        it[2] = val\n"
-        "                        count = count + 1\n"
         "                    end\n"
         "                end\n"
         "            end\n"
@@ -137,12 +255,13 @@ static int Hooked_luaL_loadbuffer(void* L, const char* buff, size_t sz, const ch
 }
 
 static DWORD WINAPI InitHookThread(LPVOID lpParam) {
+    EnsureOriginalLoaded();
     LogMsg("=== Reverse: 1999 Viet Hoa Runtime Hook Khoi Dong ===");
     LoadViJson();
 
     HMODULE hTolua = NULL;
     int tries = 0;
-    while (!hTolua && tries < 300) { // Đợi tối đa 30 giây
+    while (!hTolua && tries < 300) {
         hTolua = GetModuleHandleA("tolua.dll");
         if (!hTolua) {
             Sleep(100);
@@ -169,7 +288,6 @@ static DWORD WINAPI InitHookThread(LPVOID lpParam) {
         return 0;
     }
 
-    // Thiet lap Trampoline cho 14 byte x64
     BYTE* target = (BYTE*)target_func;
     DWORD oldProt;
     VirtualProtect(g_trampoline, sizeof(g_trampoline), PAGE_EXECUTE_READWRITE, &oldProt);
@@ -182,7 +300,6 @@ static DWORD WINAPI InitHookThread(LPVOID lpParam) {
 
     orig_luaL_loadbuffer = (pfn_luaL_loadbuffer)g_trampoline;
 
-    // Ghi de 14 byte JMP vao target_func
     VirtualProtect(target, 14, PAGE_EXECUTE_READWRITE, &oldProt);
     target[0] = 0xFF;
     target[1] = 0x25;

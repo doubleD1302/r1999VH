@@ -47,14 +47,13 @@ def export_vi_strings_json(output_path: Path) -> int:
 def build_proxy_dll(output_dll: Path) -> bool:
     """Biên dịch version.dll từ mã nguồn C (VietHoa/tools/hook/)"""
     c_src = HOOK_SRC_DIR / "version.c"
-    def_src = HOOK_SRC_DIR / "version.def"
 
-    if not c_src.exists() or not def_src.exists():
+    if not c_src.exists():
         print(f"[LỖI] Không tìm thấy mã nguồn hook tại: {HOOK_SRC_DIR}")
         return False
 
     output_dll.parent.mkdir(parents=True, exist_ok=True)
-    cmd = ["gcc", "-O2", "-shared", "-o", str(output_dll), str(c_src), str(def_src)]
+    cmd = ["gcc", "-O2", "-shared", "-o", str(output_dll), str(c_src)]
     print(f"  [BUILD] Đang biên dịch {output_dll.name} bằng GCC...")
     res = subprocess.run(cmd, capture_output=True, text=True)
     if res.returncode != 0:
